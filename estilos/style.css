@@ -460,6 +460,7 @@ main .fotomain{
 
 .griform{
     width: 100%;
+    background-color: rgb(36, 4, 67);
 }
 
 .contanos figure{
@@ -473,6 +474,7 @@ main .fotomain{
     width: 100%;
     align-items: start;
     padding-left: 5px;
+    
 }
 
 form div label{
@@ -601,7 +603,7 @@ form div label{
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: 90%;
-        
+        /* esto se agrego como ADD y COMMIT y si bien me aparecen los cambios en el "git show" no aparecen en github */
     }
 
     .reco article{
@@ -610,8 +612,8 @@ form div label{
         background-color: rgb(38, 38, 63);
         display: flex;
         flex-direction: column;
-        align-items:center
-        
+        align-items:center;
+        justify-content: space-between;
         }
 
     .reco article img{
@@ -877,6 +879,7 @@ form div label{
     flex-direction: column;
     align-items: center;
     width: 100%;
+    
 }
 
 .griform{
@@ -889,6 +892,7 @@ form div label{
 }
 
 .contanos form{
+
     display: flex;
     flex-direction: column;
     width: 100%;
