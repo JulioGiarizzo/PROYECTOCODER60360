@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../estilos/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid bg-black">
+                <a class="navbar-brand bg-warning" href="#"><h1 class="p-2">Sin Bichos</h1></a>
+                <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.htm">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../sections/us.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../sections/products.html">Productos Utiles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../sections/info.html">Info Util</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contanos">
+
+        <h2>Contacta con nosotros y despejamos tus dudas</h2>
+
+        <div class="griform">
+            <figure>
+                <img src="../imgs/contactus.webp"
+                    alt="una laptop sobre un escritorio en el cual se ven las manos de una mujer respondiendo mails con una taza de café a l lado de la pc. También se aprecia su cabeza en desenfoque.">
+            </figure>
+            <form>
+                <div class="nombre">
+                    <label for="nombre">Nombre y
+                        apellido</label><!-- en el for se pone el id del input al que refiere el label, en este caso: "nombre" -->
+                    <input type="text" name="nombre" id="nombre" placeholder="Ej: Susan Gria">
+                </div>
+                <div class="correo">
+                    <label for="correo">Ingrese su correo electrónico</label>
+                    <input type="email" name="correo" id="correo" placeholder="Ej:Micorreo@gmaial.com">
+                </div>
+                <div class="consulta">
+                    <label for="asunto">Su consulta</label>
+                    <select name="asunto" id="asunto">
+                        <option value="recomendacion en fumigaciones según la zona">Recomendación en fumigaciones según la
+                            zona</option>
+                        <option value="Cursos a distancia">Cursos a distancia</option>
+                        <option value="Sugerencias">Sugereencias</option>
+                        <option value="Otros">Otros</option>
+                    </select>
+                </div>
+                <div class="mensaje">
+                    <label for="mensaje">Ingrese su mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                </div>
+                <div class="inputsubmit">
+                    <input class="submit" type="submit">
+                    <input class="submit" type="reset">
+                </div>
+            </form>
+                </section>
+            
+                <footer>
+            <div class="gracia">
+                <p>Gracias por visitarnos</p>
+            </div>
+            <ul>
+                <li><a href="#"><img src="../imgs/redes/face.png" alt="logo facebook"></a></li>
+                <li><a href="#"><img src="../imgs/redes/ig.jpg" alt="logo instagram"></a></li>
+                <li><a href="#"><img src="../imgs/redes/x.jpg" alt="logo ex twitter"></a></li>
+            </ul>
+            <div class="footerc">
+                <a href="#">
+                    <p>Si querés recibir las últimas novedades hacé click acá</p>
+                </a>
+            </div>
+        </div>
+
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
