@@ -87,15 +87,8 @@ main .fotomain{
         
     }
 
-    .cuadro p{
-        text-align: center;
-        font-size: 20px;
-        color: white;
-        padding: 2px;
-        
-    }
+
     .cuadro{
-        
         background-color: rgb(36, 36, 56);
         border: 1px solid white;
         border-radius: 10px;
@@ -107,84 +100,93 @@ main .fotomain{
         overflow: hidden;
         margin-top: 5px;
 
-    }
-    
-    .cuadro .comunity{
-        background-color: black;
-        text-decoration: none;
-        color: white;
-        font-size: 20px;
-        border: solid white 1px;
-        border-radius: 8px;
-        margin-bottom: 8px;
+        h2{
+            margin: 0;
+            overflow: hidden;
+        }
 
-        
+            p{
+                text-align: center;
+                font-size: 20px;
+                color: white;
+                padding: 2px;
+            }
+
+                .comunity{
+                    background-color: black;
+                    text-decoration: none;
+                    color: white;
+                    font-size: 20px;
+                border: solid white 1px;
+                border-radius: 8px;
+                margin-bottom: 8px;
+                    
+                }
+
+
     }
 
-    .cuadro h2{
-        margin: 0;
-        overflow: hidden;
-    }
 
     .secindexdos{
+
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 1rem;
+
+        h2{
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+            .reco{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 90%;
+                gap: 1rem;
+
+                article{
+                    border: solid white 1.5px;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background-color: rgb(20, 20, 76);
+
+                    h3{
+                        background-color: yellow;
+                        width: 100%;
+                        text-align: center;
+                    }
+
+                    img{
+                        padding: 10px;
+                    }
+
+                    p{
+                        color: white;
+                        font-size: 20px;
+                        text-align: center;
+                        padding: 5px;
+                    }
+
+                    .visitar{
+                        background-color: rgb(0, 0, 0);
+                        border-radius: 8px;
+                        border: solid white 1px;
+                        text-decoration: none;
+                        text-align: center;
+                        font-size: 20px;
+                        color: white;
+                        margin-bottom: 8px;
+                        width: 30%;
+                    }
+                }
+            }           
     }
-
-    .reco{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 90%;
-        gap: 1rem;
-
-    }
-
-    .reco article{
-        border: solid white 1.5px;
-        border-radius: 10px;
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: rgb(20, 20, 76);
-        
-    }
-
-    .reco article img{
-        padding: 10px;
-    }
-
-    .reco article h3{
-        background-color: yellow;
-        width: 100%;
-        text-align: center;
-
-    }
-
-
-    .reco article p{
-        color: white;
-        font-size: 20px;
-        text-align: center;
-        padding: 5px;
-    }
-
-    .reco article .visitar{
-
-        background-color: black;
-        border-radius: 8px;
-        border: solid white 1px;
-        text-decoration: none;
-        text-align: center;
-        font-size: 20px;
-        color: white;
-        margin-bottom: 8px;
-        width: 30%;
-        
-    }
+}
 /* us-------------------------------------------------------------------------------------------------------------- */
     .pro{
         display: flex;
@@ -573,7 +575,7 @@ form div label{
     
     
 
-}
+
 
 
 

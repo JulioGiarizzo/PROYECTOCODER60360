@@ -62,12 +62,6 @@ main .fotomain {
     width: 100%;
     font-size: 20px;
   }
-  .cuadro p {
-    text-align: center;
-    font-size: 20px;
-    color: white;
-    padding: 2px;
-  }
   .cuadro {
     background-color: rgb(36, 36, 56);
     border: 1px solid white;
@@ -80,6 +74,16 @@ main .fotomain {
     overflow: hidden;
     margin-top: 5px;
   }
+  .cuadro h2 {
+    margin: 0;
+    overflow: hidden;
+  }
+  .cuadro p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 2px;
+  }
   .cuadro .comunity {
     background-color: black;
     text-decoration: none;
@@ -89,24 +93,24 @@ main .fotomain {
     border-radius: 8px;
     margin-bottom: 8px;
   }
-  .cuadro h2 {
-    margin: 0;
-    overflow: hidden;
-  }
   .secindexdos {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
   }
-  .reco {
+  .secindexdos h2 {
+    background-color: yellow;
+    font-weight: bold;
+  }
+  .secindexdos .reco {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 90%;
     gap: 1rem;
   }
-  .reco article {
+  .secindexdos .reco article {
     border: solid white 1.5px;
     border-radius: 10px;
     overflow: hidden;
@@ -115,22 +119,22 @@ main .fotomain {
     align-items: center;
     background-color: rgb(20, 20, 76);
   }
-  .reco article img {
-    padding: 10px;
-  }
-  .reco article h3 {
+  .secindexdos .reco article h3 {
     background-color: yellow;
     width: 100%;
     text-align: center;
   }
-  .reco article p {
+  .secindexdos .reco article img {
+    padding: 10px;
+  }
+  .secindexdos .reco article p {
     color: white;
     font-size: 20px;
     text-align: center;
     padding: 5px;
   }
-  .reco article .visitar {
-    background-color: black;
+  .secindexdos .reco article .visitar {
+    background-color: rgb(0, 0, 0);
     border-radius: 8px;
     border: solid white 1px;
     text-decoration: none;
@@ -140,326 +144,372 @@ main .fotomain {
     margin-bottom: 8px;
     width: 30%;
   }
-  /* us-------------------------------------------------------------------------------------------------------------- */
-  .pro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1rem;
-    gap: 0.5rem;
-  }
-  .us h3 {
-    background-color: yellow;
-    text-align: center;
-    width: 100%;
-    font-size: 20px;
-  }
-  .us p {
-    color: white;
-    padding: 5px;
-    text-align: center;
-  }
-  .pro .us {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(71, 71, 185);
-    border-radius: 8px;
-    border: solid white 1px;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 80%;
-    overflow: hidden;
-  }
-  .pro .us div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  .pro .us div a {
-    text-decoration: none;
-    font-size: 15px;
-    color: white;
-    background-color: black;
-    border-radius: 8px;
-    border: solid white 1px;
-    padding: 5px;
-    margin: 8px;
-  }
-  /*productos------------------------------------------------------------------------------------------ */
-  .secprod1 {
-    background-color: rgb(11, 11, 96);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border: solid white 1px;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  .secprod1 h2 {
-    margin-top: 0;
-    font-size: 25px;
-    font-weight: bold;
-  }
-  .secprod1 p {
-    color: white;
-    text-align: center;
-    padding: 8px;
-  }
-  .secprod2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  .productocontenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  .producto {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(5, 62, 62);
-    width: 95%;
-    justify-content: space-between;
-    gap: 1rem;
-    align-items: center;
-    padding: 8px;
-    border: solid white 1px;
-    border-radius: 8px;
-  }
-  .producto h3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(236, 101, 128);
-    margin-top: 0%;
-    width: 100%;
-    text-align: center;
-    height: 3rem;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .producto img {
-    width: 100%;
-    height: 40%;
-    object-fit: cover;
-  }
-  .producto p {
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    padding: 7px;
-  }
-  .producto a {
-    background-color: black;
-    color: white;
-    font-size: 15px;
-    padding: 5px;
-    border: solid white 1px;
-    text-align: center;
-    border-radius: 8px;
-  }
-  /* Info-------------------------------------------------------- */
-  .sectinfo {
-    background-color: rgb(20, 20, 85);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    border: white solid 1px;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  .sectinfo h2 {
-    margin-top: 0;
-    font-weight: bold;
-    font-size: 25px;
-  }
-  .infocla {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-    gap: 1rem;
-    padding: 10px;
-  }
-  .info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border: solid white 1px;
-    border-radius: 8px;
-    overflow: hidden;
-    background-color: rgb(73, 73, 109);
-  }
-  .info h3 {
-    background-color: rgb(16, 159, 0);
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-  }
-  .info img {
-    width: 100%;
-    height: 40%;
-    object-fit: cover;
-    padding: 5px;
-  }
-  .info p {
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    margin: 5px;
-  }
-  .info .investiga {
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    border: solid white 1px;
-    border-radius: 8px;
-    padding: 5px;
-    margin: 8px;
-  }
-  .prervenir {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: blue;
-  }
-  .prevenir h2 {
-    font-size: 25px;
-    font-weight: bold;
-  }
-  .prevenir .orden {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-right: 8px;
-    background-color: rgb(0, 106, 255);
-    border: solid white 1px;
-    color: white;
-    list-style: decimal;
-    padding-top: 5px;
-  }
-  .orden li strong {
-    color: black;
-    text-decoration: underline;
-  }
-  .prevenir .conclution {
-    background-color: rgb(16, 129, 46);
-    text-align: center;
-    padding: 1rem;
-    padding-bottom: 5px;
-    width: 100%;
-    margin-bottom: 10px;
-    align-self: flex-start;
-  }
-  /* contacto---------------------------------------------------- */
-  .contanos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  .griform {
-    width: 100%;
-    background-color: rgb(36, 4, 67);
-  }
-  .contanos figure {
-    width: 100%;
-    object-fit: cover;
-  }
-  .contanos form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: start;
-    padding-left: 5px;
-  }
-  form div label {
-    color: aliceblue;
-  }
-  .nombre {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 5px;
-  }
-  .correo {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 5px;
-  }
-  .consulta {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 5px;
-  }
-  .mensaje {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 5px;
-  }
-  .inputsubmit {
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
-    gap: 5px;
-  }
-  /* footer------------------------------------------------------ */
-  footer {
-    width: 100%;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-    margin-top: 15px;
-  }
-  footer img {
-    height: 40px;
-    width: 40px;
-  }
-  .gracia {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    width: 40%;
-    text-align: center;
-  }
-  .footerc {
-    border: white solid 1px;
-    text-align: center;
-    width: 50%;
-  }
-  .footerc p {
-    padding-top: 15px;
-  }
-  footer ul {
-    display: flex;
-    padding: 0;
-    width: 35%;
-    list-style: none;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-  footer a {
-    color: white;
-    padding-top: 10px;
-    text-decoration: none;
-  }
 }
+/* us-------------------------------------------------------------------------------------------------------------- */
+.pro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  gap: 0.5rem;
+}
+
+.us h3 {
+  background-color: yellow;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+}
+
+.us p {
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.pro .us {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(71, 71, 185);
+  border-radius: 8px;
+  border: solid white 1px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  overflow: hidden;
+}
+
+.pro .us div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pro .us div a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  border: solid white 1px;
+  padding: 5px;
+  margin: 8px;
+}
+
+/*productos------------------------------------------------------------------------------------------ */
+.secprod1 {
+  background-color: rgb(11, 11, 96);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: solid white 1px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.secprod1 h2 {
+  margin-top: 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.secprod1 p {
+  color: white;
+  text-align: center;
+  padding: 8px;
+}
+
+.secprod2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.productocontenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.producto {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(5, 62, 62);
+  width: 95%;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  padding: 8px;
+  border: solid white 1px;
+  border-radius: 8px;
+}
+
+.producto h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(236, 101, 128);
+  margin-top: 0%;
+  width: 100%;
+  text-align: center;
+  height: 3rem;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.producto img {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+}
+
+.producto p {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 7px;
+}
+
+.producto a {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  border: solid white 1px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Info-------------------------------------------------------- */
+.sectinfo {
+  background-color: rgb(20, 20, 85);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: white solid 1px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.sectinfo h2 {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.infocla {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  gap: 1rem;
+  padding: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: solid white 1px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: rgb(73, 73, 109);
+}
+
+.info h3 {
+  background-color: rgb(16, 159, 0);
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.info img {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.info p {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  margin: 5px;
+}
+
+.info .investiga {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border: solid white 1px;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 8px;
+}
+
+.prervenir {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: blue;
+}
+
+.prevenir h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.prevenir .orden {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 8px;
+  background-color: rgb(0, 106, 255);
+  border: solid white 1px;
+  color: white;
+  list-style: decimal;
+  padding-top: 5px;
+}
+
+.orden li strong {
+  color: black;
+  text-decoration: underline;
+}
+
+.prevenir .conclution {
+  background-color: rgb(16, 129, 46);
+  text-align: center;
+  padding: 1rem;
+  padding-bottom: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+
+/* contacto---------------------------------------------------- */
+.contanos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.griform {
+  width: 100%;
+  background-color: rgb(36, 4, 67);
+}
+
+.contanos figure {
+  width: 100%;
+  object-fit: cover;
+}
+
+.contanos form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: start;
+  padding-left: 5px;
+}
+
+form div label {
+  color: aliceblue;
+}
+
+.nombre {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px;
+}
+
+.correo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px;
+}
+
+.consulta {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px;
+}
+
+.mensaje {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px;
+}
+
+.inputsubmit {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  gap: 5px;
+}
+
+/* footer------------------------------------------------------ */
+footer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+footer img {
+  height: 40px;
+  width: 40px;
+}
+
+.gracia {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 40%;
+  text-align: center;
+}
+
+.footerc {
+  border: white solid 1px;
+  text-align: center;
+  width: 50%;
+}
+
+.footerc p {
+  padding-top: 15px;
+}
+
+footer ul {
+  display: flex;
+  padding: 0;
+  width: 35%;
+  list-style: none;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+footer a {
+  color: white;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
 /* ------------------------------------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 768px) {
   .navbar-nav {
