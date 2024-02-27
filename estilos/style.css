@@ -369,17 +369,6 @@ main .fotomain {
   align-self: flex-start;
 }
 
-/* 
-
-.prevenir .conclution{
-    background-color: rgb(16, 129, 46);
-    text-align: center;
-    padding: 1rem;
-    padding-bottom:5px;
-    width: 100%;
-    margin-bottom: 10px;
-    align-self: flex-start;
-} */
 /* contacto---------------------------------------------------- */
 .contanos {
   display: flex;
@@ -387,62 +376,42 @@ main .fotomain {
   align-items: center;
   width: 100%;
 }
-
-.griform {
+.contanos .griform {
   width: 100%;
   background-color: rgb(36, 4, 67);
 }
-
-.contanos figure {
+.contanos .griform figure {
   width: 100%;
   object-fit: cover;
 }
-
-.contanos form {
+.contanos .griform form {
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: start;
   padding-left: 5px;
 }
-
-form div label {
+.contanos .griform form div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px;
+}
+.contanos .griform form label {
   color: aliceblue;
 }
-
-.nombre {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 5px;
-}
-
-.correo {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 5px;
-}
-
-.consulta {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 5px;
-}
-
-.mensaje {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 5px;
-}
-
-.inputsubmit {
+.contanos .griform form .inputsubmit {
   display: flex;
   flex-direction: row;
   padding: 5px;
   gap: 5px;
+}
+.contanos .griform form .inputsubmit .submit {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border: solid white 1px;
+  border-radius: 8px;
 }
 
 /* footer------------------------------------------------------ */
@@ -457,13 +426,11 @@ footer {
   gap: 10px;
   margin-top: 15px;
 }
-
 footer img {
   height: 40px;
   width: 40px;
 }
-
-.gracia {
+footer .gracia {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -471,17 +438,14 @@ footer img {
   width: 40%;
   text-align: center;
 }
-
-.footerc {
+footer .footerc {
   border: white solid 1px;
   text-align: center;
   width: 50%;
 }
-
-.footerc p {
+footer .footerc p {
   padding-top: 15px;
 }
-
 footer ul {
   display: flex;
   padding: 0;
@@ -490,7 +454,6 @@ footer ul {
   justify-content: space-between;
   gap: 1rem;
 }
-
 footer a {
   color: white;
   padding-top: 10px;
