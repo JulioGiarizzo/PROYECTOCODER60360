@@ -203,13 +203,11 @@ main .fotomain {
   border-radius: 8px;
   overflow: hidden;
 }
-
 .secprod1 h2 {
   margin-top: 0;
   font-size: 25px;
   font-weight: bold;
 }
-
 .secprod1 p {
   color: white;
   text-align: center;
@@ -222,15 +220,13 @@ main .fotomain {
   align-items: center;
   gap: 1rem;
 }
-
-.productocontenedor {
+.secprod2 .productocontenedor {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
 }
-
-.producto {
+.secprod2 .productocontenedor .producto {
   display: flex;
   flex-direction: column;
   background-color: rgb(5, 62, 62);
@@ -242,8 +238,7 @@ main .fotomain {
   border: solid white 1px;
   border-radius: 8px;
 }
-
-.producto h3 {
+.secprod2 .productocontenedor .producto h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -256,21 +251,18 @@ main .fotomain {
   font-weight: bold;
   font-size: 20px;
 }
-
-.producto img {
+.secprod2 .productocontenedor .producto img {
   width: 100%;
   height: 40%;
   object-fit: cover;
 }
-
-.producto p {
+.secprod2 .productocontenedor .producto p {
   color: white;
   font-size: 18px;
   text-align: center;
   padding: 7px;
 }
-
-.producto a {
+.secprod2 .productocontenedor .producto a {
   background-color: black;
   color: white;
   font-size: 15px;
@@ -291,14 +283,12 @@ main .fotomain {
   border-radius: 8px;
   overflow: hidden;
 }
-
 .sectinfo h2 {
   margin-top: 0;
   font-weight: bold;
   font-size: 25px;
 }
-
-.infocla {
+.sectinfo .infocla {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -306,8 +296,7 @@ main .fotomain {
   gap: 1rem;
   padding: 10px;
 }
-
-.info {
+.sectinfo .infocla .info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -317,29 +306,25 @@ main .fotomain {
   overflow: hidden;
   background-color: rgb(73, 73, 109);
 }
-
-.info h3 {
+.sectinfo .infocla .info h3 {
   background-color: rgb(16, 159, 0);
   width: 100%;
   text-align: center;
   font-weight: bold;
 }
-
-.info img {
+.sectinfo .infocla .info img {
   width: 100%;
   height: 40%;
   object-fit: cover;
   padding: 5px;
 }
-
-.info p {
+.sectinfo .infocla .info p {
   color: white;
   font-size: 15px;
   text-align: center;
   margin: 5px;
 }
-
-.info .investiga {
+.sectinfo .infocla .info .investiga {
   text-decoration: none;
   color: white;
   background-color: black;
@@ -355,13 +340,11 @@ main .fotomain {
   align-items: center;
   background-color: blue;
 }
-
-.prevenir h2 {
+.prervenir h2 {
   font-size: 25px;
   font-weight: bold;
 }
-
-.prevenir .orden {
+.prervenir .orden {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -372,13 +355,11 @@ main .fotomain {
   list-style: decimal;
   padding-top: 5px;
 }
-
-.orden li strong {
+.prervenir .orden strong {
   color: black;
   text-decoration: underline;
 }
-
-.prevenir .conclution {
+.prervenir .orden .conclution {
   background-color: rgb(16, 129, 46);
   text-align: center;
   padding: 1rem;
@@ -388,6 +369,17 @@ main .fotomain {
   align-self: flex-start;
 }
 
+/* 
+
+.prevenir .conclution{
+    background-color: rgb(16, 129, 46);
+    text-align: center;
+    padding: 1rem;
+    padding-bottom:5px;
+    width: 100%;
+    margin-bottom: 10px;
+    align-self: flex-start;
+} */
 /* contacto---------------------------------------------------- */
 .contanos {
   display: flex;

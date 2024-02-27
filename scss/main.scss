@@ -246,6 +246,7 @@ main .fotomain{
 
 /*productos------------------------------------------------------------------------------------------ */
 
+
 .secprod1{
     background-color: rgb(11, 11, 96);
     display: flex;
@@ -255,89 +256,92 @@ main .fotomain{
     border: solid white 1px;
     border-radius: 8px;
     overflow: hidden;
+
+
+    h2{
+        margin-top: 0;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    p{
+        color: white;
+        text-align: center;
+        padding: 8px;
+    }
 }
 
-.secprod1 h2{
-    margin-top: 0;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.secprod1 p{
-
-    color: white;
-    text-align: center;
-    padding: 8px;
-
-}
 
 .secprod2{
-
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+
+    .productocontenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        .producto{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(5, 62, 62);
+            width: 95%;
+            justify-content: space-between;
+            gap: 1rem;
+            align-items: center;
+            padding: 8px;
+            border: solid white 1px;
+            border-radius: 8px;
+            
+            h3{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(236, 101, 128);
+                margin-top: 0%;
+                width: 100%;
+                text-align: center;
+                height: 3rem;
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            img{
+                width: 100%;
+                height: 40%;
+                object-fit: cover;
+            }
+
+            p{
+                color: white;
+                font-size: 18px;
+                text-align: center;
+                padding: 7px;
+            }
+
+            a{
+                background-color: black;
+                color: white;
+                font-size: 15px;
+                padding: 5px;
+                border: solid white 1px;
+                text-align: center;
+                border-radius: 8px;
+            }
+
+
+        }
+
+
+    }
 }
 
-.productocontenedor{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-
-.producto{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(5, 62, 62);
-    width: 95%;
-    justify-content: space-between;
-    gap: 1rem;
-    align-items: center;
-    padding: 8px;
-    border: solid white 1px;
-    border-radius: 8px;
-}
-
-.producto h3{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(236, 101, 128);
-    margin-top: 0%;
-    width: 100%;
-    text-align: center;
-    height: 3rem;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.producto img{
-    width: 100%;
-    height: 40%;
-    object-fit: cover;
-}
-
-.producto p{
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    padding: 7px;
-
-}
-
-.producto a{
-
-    background-color: black;
-    color: white;
-    font-size: 15px;
-    padding: 5px;
-    border: solid white 1px;
-    text-align: center;
-    border-radius: 8px;
-}
 /* Info-------------------------------------------------------- */
+
 
 .sectinfo{
     background-color: rgb(20, 20, 85);
@@ -349,101 +353,108 @@ main .fotomain{
     border-radius: 8px;
     overflow: hidden;
     
-}
-
-.sectinfo h2{
-    margin-top: 0;
-    font-weight: bold;
-    font-size: 25px;
-}
-
-.infocla{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-    gap: 1rem;
-    padding: 10px;
+    h2{
+        margin-top: 0;
+        font-weight: bold;
+        font-size: 25px;
+    }
     
 
-}
-.info{
+        .infocla{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            gap: 1rem;
+            padding: 10px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border: solid white 1px;
-    border-radius: 8px;
-    overflow: hidden;
-    background-color: rgb(73, 73, 109);
-}
+            .info{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                border: solid white 1px;
+                border-radius: 8px;
+                overflow: hidden;
+                background-color: rgb(73, 73, 109);
 
-.info h3{
-    background-color: rgb(16, 159, 0);
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-}
+                h3{
+                    background-color: rgb(16, 159, 0);
+                    width: 100%;
+                    text-align: center;
+                    font-weight: bold;
+                }
 
-.info img{
-    width: 100%;
-    height: 40%;
-    object-fit: cover;
-    padding: 5px;
-}
+                img{
+                    width: 100%;
+                    height: 40%;
+                    object-fit: cover;
+                    padding: 5px;
+                }
 
-.info p{
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    margin: 5px;
-}
+                p{
+                    color: white;
+                    font-size: 15px;
+                    text-align: center;
+                    margin: 5px;
+                }
 
-.info .investiga{
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    border: solid white 1px;
-    border-radius: 8px;
-    padding: 5px;
-    margin: 8px;
+                .investiga{
+                    text-decoration: none;
+                    color: white;
+                    background-color: black;
+                    border: solid white 1px;
+                    border-radius: 8px;
+                    padding: 5px;
+                    margin: 8px;
+                }
+
+                
+            }
+        }
 }
 
 .prervenir{
-
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: blue;
 
+    h2{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .orden{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 8px;
+        background-color: rgb(0, 106, 255);
+        border: solid white 1px;
+        color: white;
+        list-style: decimal;
+        padding-top: 5px;
+
+        strong{
+            color: black;
+            text-decoration: underline;
+        }
+
+        .conclution{
+            background-color: rgb(16, 129, 46);
+            text-align: center;
+            padding: 1rem;
+            padding-bottom:5px;
+            width: 100%;
+            margin-bottom: 10px;
+            align-self: flex-start;
+        }
+    }
 }
 
-.prevenir h2{
+/* 
 
-    font-size: 25px;
-    font-weight: bold;
-    
-}
-
-.prevenir .orden{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-right: 8px;
-    background-color: rgb(0, 106, 255);
-    border: solid white 1px;
-    color: white;
-    list-style: decimal;
-    padding-top: 5px;
-
-}
-
-.orden li strong{
-    color: black;
-    text-decoration: underline;
-}
 .prevenir .conclution{
     background-color: rgb(16, 129, 46);
     text-align: center;
@@ -452,7 +463,7 @@ main .fotomain{
     width: 100%;
     margin-bottom: 10px;
     align-self: flex-start;
-}
+} */
 
 /* contacto---------------------------------------------------- */
 
