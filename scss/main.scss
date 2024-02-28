@@ -569,67 +569,74 @@ footer{
 
 @media screen and (min-width:768px) {
 
+
+    h1{
+        text-align: center;
+        padding: 8px;
+    }
+
     .navbar-nav{
         background-color: black;
         
     }
 
 
-    main .fotomain img{
-        width: 100%;
-        padding-top:0.5% ;
-        border-radius: 15px;
-    }
-    
-    h1{
-        text-align: center;
-        padding: 8px;
-    }
-    
+.secindexdos{
 
-    .reco{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        width: 90%;
-        /* esto se agrego como ADD y COMMIT y si bien me aparecen los cambios en el "git show" no aparecen en github */
-    }
+    background-color: rgb(1, 15, 29);
 
-    .reco article{
-        height: 100%;
-        width: 100%;
-        background-color: rgb(38, 38, 63);
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        justify-content: space-between;
+    h2{
+        color: black;
+        font-weight: bold;
+        background-color: yellow;
+
+        .reco{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+            width: 100%;
+
+            article{
+
+                height: 100%;
+                width: 100%;
+                background-color: rgb(38, 38, 63);
+                display: flex;
+                flex-direction: column;
+                align-items:center;
+                justify-content: space-between;
+
+                h3{
+                    font-size: 25px;
+                }
+
+                img{
+                    width: 100%;
+                    height: fit-content;
+                    padding: 10px;
+                }
+
+                .visitar{
+                    background-color: black;
+                    border-radius: 8px;
+                    border: solid white 1px;
+                    text-decoration: none;
+                    text-align: center;
+                    font-size: 20px;
+                    color: white;
+                    padding: 5px;
+                    margin-bottom: 4px;
+                }
+
+            }
         }
-
-    .reco article img{
-        width: 100%;
-        height: fit-content;
-        padding: 10px;  
     }
+}
 
-    .reco h3{
-        font-size: 30px;
-    }
-
-    .reco article .visitar{
-
-        background-color: black;
-        border-radius: 8px;
-        border: solid white 1px;
-        text-decoration: none;
-        text-align: center;
-        font-size: 20px;
-        color: white;
-        padding: 5px;
-        margin-bottom: 4px;
-    }
 
 
     h2{
-        background-color: yellow;
+        background-color: rgb(72, 72, 18);
         text-align: center;
         margin-top: 8px;
         width: 100%;

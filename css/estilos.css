@@ -470,7 +470,7 @@ footer a {
     background-color: black;
   }
   .secindexdos {
-    background-color: rgb(1, 15, 29);
+    background-color: rgb(1, 29, 54);
   }
   .secindexdos h2 {
     color: black;
@@ -480,8 +480,6 @@ footer a {
   .secindexdos h2 .reco {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    width: 100%;
   }
   .secindexdos h2 .reco article {
     height: 100%;
@@ -1266,4 +1264,4 @@ footer a {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=estilos.css.map */
