@@ -793,6 +793,10 @@ footer a {
 }
 /* --------------------------------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 70px;
+    width: 350px;
+  }
   .navbar-nav {
     font-size: 22px;
   }
@@ -807,23 +811,13 @@ footer a {
   main {
     width: 100%;
   }
-  main .fotomain img {
+  main section .fotomain img {
     width: 100%;
     padding-top: 0.5%;
     border-radius: 15px;
     object-fit: cover;
   }
-  h1 {
-    font-size: 70px;
-    width: 350px;
-  }
-  h2 {
-    background-color: yellow;
-    font-size: 50px;
-    width: 100%;
-    text-align: center;
-  }
-  .cuadro {
+  main section .cuadro {
     background-color: rgb(36, 36, 56);
     border: 2px solid white;
     border-radius: 10px;
@@ -835,13 +829,19 @@ footer a {
     overflow: hidden;
     width: 100%;
   }
-  .cuadro p {
+  main section .cuadro h2 {
+    background-color: yellow;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  main section .cuadro p {
     text-align: center;
     font-size: 30px;
     color: white;
     padding: 10px;
   }
-  .cuadro .comunity {
+  main section .cuadro .comunity {
     background-color: black;
     text-decoration: none;
     color: white;
@@ -851,7 +851,7 @@ footer a {
     padding: 5px;
     margin: 15px;
   }
-  .comunity:hover {
+  main section .cuadro .comunity:hover {
     background-color: green;
     transform: scale(1.1);
     transition: 0.3s;
@@ -865,7 +865,7 @@ footer a {
   .secindexdos h2 {
     width: 100%;
   }
-  .reco {
+  .secindexdos .reco {
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -873,24 +873,7 @@ footer a {
     align-items: center;
     width: 95%;
   }
-  .reco article img {
-    height: 45%;
-    width: 100%;
-  }
-  .reco article h3 {
-    font-size: 30px;
-    background-color: yellow;
-    width: 100%;
-    text-align: center;
-    padding: 8px;
-  }
-  .reco article p {
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    height: 45%;
-  }
-  .reco article {
+  .secindexdos .reco article {
     border-radius: 10px;
     border: solid white 1px;
     height: 630px;
@@ -901,7 +884,24 @@ footer a {
     align-items: center;
     gap: 5px;
   }
-  .reco article .visitar {
+  .secindexdos .reco article h3 {
+    font-size: 30px;
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+  }
+  .secindexdos .reco article img {
+    height: 45%;
+    width: 100%;
+  }
+  .secindexdos .reco article p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    height: 45%;
+  }
+  .secindexdos .reco article .visitar {
     background-color: black;
     border-radius: 8px;
     border: solid white 1px;
@@ -911,7 +911,7 @@ footer a {
     font-size: 25px;
     color: white;
   }
-  article .visitar:hover {
+  .secindexdos .reco article .visitar:hover {
     background-color: green;
     transform: scale(1.1);
     transition: 0.3s;
