@@ -917,14 +917,16 @@ footer a {
     transition: 0.3s;
   }
   /* us---------------------------------- */
-  section {
+  .pro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  section h2 {
+  .pro h2 {
     margin-top: 10px;
+    font-weight: bold;
+    font-size: 50px;
   }
   .pro .us {
     width: 75%;
@@ -937,17 +939,7 @@ footer a {
     display: flex;
     flex-direction: row;
   }
-  .us h3 {
-    background-color: yellow;
-    font-size: 40px;
-    width: 100%;
-    text-align: center;
-  }
-  .pro .us p {
-    font-size: 25px;
-    color: white;
-  }
-  .us img {
+  .pro .us img {
     height: 550px;
     min-width: 400px;
     max-width: 1100px;
@@ -963,6 +955,16 @@ footer a {
     min-width: 450px;
     max-width: 550px;
     min-height: 95%;
+  }
+  .pro .us div h3 {
+    background-color: yellow;
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+  }
+  .pro .us div p {
+    font-size: 25px;
+    color: white;
   }
   .pro .us div a {
     text-decoration: none;
