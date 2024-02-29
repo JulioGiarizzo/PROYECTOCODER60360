@@ -469,6 +469,13 @@ footer a {
   .navbar-nav {
     background-color: black;
   }
+  .cuadro h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .cuadro .comunity:active {
+    background-color: green;
+  }
   .secindexdos {
     background-color: rgb(1, 15, 29);
   }
