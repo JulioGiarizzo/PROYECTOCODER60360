@@ -1014,7 +1014,7 @@ footer a {
     font-size: 55px;
     font-weight: bold;
   }
-  .productocontenedor {
+  .secprod2 .productocontenedor {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
@@ -1022,7 +1022,7 @@ footer a {
     gap: 1rem;
     width: 95%;
   }
-  .producto {
+  .secprod2 .productocontenedor .producto {
     display: flex;
     flex-direction: column;
     background-color: rgb(8, 114, 114);
@@ -1034,7 +1034,7 @@ footer a {
     border: solid white 1px;
     border-radius: 8px;
   }
-  .producto h3 {
+  .secprod2 .productocontenedor .producto h3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1050,18 +1050,18 @@ footer a {
     border-top-right-radius: 5px;
     color: black;
   }
-  .producto img {
+  .secprod2 .productocontenedor .producto img {
     width: 100%;
     height: 40%;
     object-fit: cover;
   }
-  .producto p {
+  .secprod2 .productocontenedor .producto p {
     color: white;
     font-size: 35px;
     text-align: center;
     padding: 7px;
   }
-  .producto a {
+  .secprod2 .productocontenedor .producto a {
     background-color: black;
     color: white;
     font-size: 25px;
@@ -1070,7 +1070,7 @@ footer a {
     text-align: center;
     border-radius: 8px;
   }
-  .producto a:hover {
+  .secprod2 .productocontenedor .producto a:hover {
     background-color: rgb(100, 5, 5);
     transform: scale(1.2);
     transition: 300ms;
@@ -1082,18 +1082,18 @@ footer a {
   .sectinfo h2 {
     font-size: 50px;
   }
-  .infocla {
+  .sectinfo .infocla {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
   }
-  .info {
+  .sectinfo .infocla .info {
     height: 100%;
     width: 100%;
     background-color: rgb(86, 86, 188);
   }
-  .info h3 {
+  .sectinfo .infocla .info h3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1104,13 +1104,13 @@ footer a {
     font-size: 40px;
     height: 70px;
   }
-  .info img {
+  .sectinfo .infocla .info img {
     width: 100%;
     height: 50%;
     object-fit: cover;
     padding: 5px;
   }
-  .info p {
+  .sectinfo .infocla .info p {
     color: white;
     font-size: 25px;
     text-align: center;
@@ -1120,7 +1120,7 @@ footer a {
     border-bottom-right-radius: 8px;
     padding: 5px;
   }
-  .info .investiga {
+  .sectinfo .infocla .info .investiga {
     font-size: 25px;
     text-decoration: none;
     color: white;
@@ -1130,14 +1130,14 @@ footer a {
     padding: 5px;
     margin: 8px;
   }
-  .investiga:hover {
+  .sectinfo .infocla .info .investiga:hover {
     background-color: green;
     transform: scale(1.2);
     transition: 300ms;
   }
-  .prervenir {
+  .prevenir {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     background-color: blue;
     width: 100%;
@@ -1159,11 +1159,11 @@ footer a {
     width: 100%;
     font-size: 30px;
   }
-  .orden li strong {
+  .prevenir .orden strong {
     color: black;
     text-decoration: underline;
   }
-  .prevenir .conclution {
+  .prevenir .orden strong .conclution {
     background-color: rgb(16, 129, 46);
     text-align: center;
     padding: 1rem;
@@ -1172,7 +1172,14 @@ footer a {
     margin-bottom: 10px;
   }
   /* contacto---------------------------------------------------- */
-  .griform {
+  .contanos {
+    width: 100%;
+  }
+  .contanos h2 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .contanos .griform {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1186,17 +1193,13 @@ footer a {
     padding-top: 8px;
     background-color: rgb(36, 4, 67);
   }
-  figure img {
+  .contanos .griform figure img {
     height: 850px;
     width: 1500px;
     padding-left: 5px;
     object-fit: cover;
   }
-  /* figure{
-      height: max-content;
-      width: max-content;
-  } */
-  form {
+  .contanos .griform form {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -1205,19 +1208,19 @@ footer a {
     object-fit: cover;
     padding-bottom: 8px;
   }
-  .inputsubmit {
+  .contanos .griform form .inputsubmit {
     display: flex;
     flex-direction: row;
     gap: 16px;
   }
-  .submit {
+  .contanos .griform form .submit {
     background-color: black;
     color: aliceblue;
     border: solid white 1px;
     border-radius: 5px;
     padding: 5px;
   }
-  .submit:hover {
+  .contanos .griform form .submit:hover {
     background-color: white;
     color: black;
     transition: 270ms;
@@ -1228,9 +1231,9 @@ footer a {
     height: 200px;
     font-size: 35px;
   }
-  footer img {
-    height: 80px;
-    width: 80px;
+  footer .gracia p {
+    color: white;
+    font-size: 40px;
   }
   footer ul {
     list-style: none;
@@ -1240,27 +1243,28 @@ footer a {
     align-items: center;
     gap: 50px;
   }
-  footer ul li img:hover {
+  footer ul li a {
+    list-style: none;
+  }
+  footer ul li a img {
+    width: 80px;
+    height: 80px;
+  }
+  footer ul li a img:hover {
     transition-duration: 0.3s;
     transform: scale(2.1);
     box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.382);
   }
-  footer p {
-    color: white;
-  }
-  .footerc {
+  footer .footerc {
     text-align: center;
     border-radius: 8px;
     border: white 1px solid;
     width: 350px;
   }
-  .footerc:hover {
+  footer .footerc:hover {
     transform: scale(1.5);
     transition-duration: 0.3s;
     box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.382);
-  }
-  footer a {
-    text-decoration: none;
   }
 }
 
