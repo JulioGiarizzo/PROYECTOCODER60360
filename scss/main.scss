@@ -1,15 +1,12 @@
 
-main .fotomain{
-    width: 100%;
-    padding-top:0.5% ;
-    border-radius: 15px;
-}
 
 /* --------------------------------------------------------------------------------------- */
 
 @import "bases";
 
 @import "components/header";
+
+@import "components/footer";
 
 @import "secciones/index";
 
@@ -20,4 +17,5 @@ main .fotomain{
 @import"secciones/us";
 
 @import"secciones/info";
+
  
