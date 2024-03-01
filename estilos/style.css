@@ -92,6 +92,8 @@ h1 {
   .cuadro h2 {
     margin: 0;
     overflow: hidden;
+    font-size: 30px;
+    font-weight: bold;
   }
   .cuadro p {
     text-align: center;
@@ -122,6 +124,7 @@ h1 {
   .secindexdos h2 {
     background-color: yellow;
     font-weight: bold;
+    font-size: 25px;
   }
   .secindexdos .reco {
     display: flex;
@@ -169,7 +172,7 @@ h1 {
 /* ------------------------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 768px) {
   .cuadro h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
   }
   .cuadro .comunity:active {
@@ -182,6 +185,7 @@ h1 {
     color: black;
     font-weight: bold;
     background-color: yellow;
+    font-size: 35px;
   }
   .secindexdos .reco {
     display: grid;
@@ -361,7 +365,7 @@ h1 {
   }
   .secprod2 h2 {
     background-color: yellow;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     width: 100%;
     text-align: center;
@@ -451,7 +455,7 @@ h1 {
   .secprod2 h2 {
     background-color: yellow;
     font-size: bold;
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
     width: 100%;
   }
