@@ -5,6 +5,15 @@
   box-sizing: border-box;
 }
 
+/* variables ---------------------------------------------------*/
+/* maps-------------------------------------------------------- */
+/* PARA LLAMAR A LOS MAPS
+
+EJEMPLO
+
+backround-color:map-get($colores-h,"hgral");
+
+*/
 body {
   background-color: rgb(21, 21, 29);
   font-family: "Fira Sans", sans-serif;
