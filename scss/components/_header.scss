@@ -1,0 +1,15 @@
+@media screen and (min-width:350px){
+
+
+    .navbar-nav{
+        background-color: black;
+    }
+
+    .collapse, .navbar-nav{
+        text-align: center;
+    }
+
+    .collapse .navbar-nav li a{
+        color: white;
+    }
+}

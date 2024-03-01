@@ -1,60 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@100;400&family=Roboto+Slab&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-/* variables ---------------------------------------------------*/
-$hcolors1: yellow;
-$hcolors2: rgb(236, 101, 128);
-
-/* maps-------------------------------------------------------- */
-$colores-h:(
-    hproducto:rgb(236, 101, 128),
-    hgral:yellow
-);
-
-/* PARA LLAMAR A LOS MAPS
-
-EJEMPLO
-
-backround-color:map-get($colores-h,"hgral");
-
-*/
-
-
-
-
-
-
-
-body{
-    background-color: rgb(21, 21, 29);
-    font-family:'Fira Sans', sans-serif;
-    font-weight: 400;
-}
-
-a{
-    text-decoration: none;
-}
-
-
-img{
-    max-width: 100%;
-}
-
-
-h1{
-    color: black;
-    background-color: yellow;
-    height: 100%;
-
-}
-
-
 
 main .fotomain{
     width: 100%;
@@ -64,151 +7,18 @@ main .fotomain{
 
 /* --------------------------------------------------------------------------------------- */
 
-@media screen and (min-width:350px){
+@import "bases";
+
+@import "components/header";
+
+@import "secciones/index";
+    
+
 
     
 
 
-    .navbar-nav{
-        background-color: black;
-    }
-
-    .collapse, .navbar-nav{
-        text-align: center;
-    }
-
-    .collapse .navbar-nav li a{
-        color: white;
-    }
-
-
-    h1{
-        height: 100%;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-    main{
-        width: 100%;
-    }
-
-
-    main .fotomain{
-        width: 100%;
-        padding-top:0.5% ;
-        border-radius: 15px;
-    }
     
-    h2{
-        background-color: yellow;
-        text-align: center;
-        margin-top: 8px;
-        width: 100%;
-        font-size:20px;
-        
-    }
-
-
-    .cuadro{
-        background-color: rgb(36, 36, 56);
-        border: 1px solid white;
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 5px;
-        overflow: hidden;
-        margin-top: 5px;
-
-        h2{
-            margin: 0;
-            overflow: hidden;
-        }
-
-            p{
-                text-align: center;
-                font-size: 20px;
-                color: white;
-                padding: 2px;
-            }
-
-                .comunity{
-                    background-color: black;
-                    text-decoration: none;
-                    color: white;
-                    font-size: 20px;
-                    border: solid white 1px;
-                    border-radius: 8px;
-                    margin-bottom: 8px;
-                    
-                }
-
-
-    }
-
-
-    .secindexdos{
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-
-        h2{
-            background-color: yellow;
-            font-weight: bold;
-        }
-
-            .reco{
-
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                width: 90%;
-                gap: 1rem;
-
-                article{
-                    border: solid white 1.5px;
-                    border-radius: 10px;
-                    overflow: hidden;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    background-color: rgb(20, 20, 76);
-
-                    h3{
-                        background-color: yellow;
-                        width: 100%;
-                        text-align: center;
-                    }
-
-                    img{
-                        padding: 10px;
-                    }
-
-                    p{
-                        color: white;
-                        font-size: 20px;
-                        text-align: center;
-                        padding: 5px;
-                    }
-
-                    .visitar{
-                        background-color: rgb(0, 0, 0);
-                        border-radius: 8px;
-                        border: solid white 1px;
-                        text-decoration: none;
-                        text-align: center;
-                        font-size: 20px;
-                        color: white;
-                        margin-bottom: 8px;
-                        width: 30%;
-                    }
-                }
-            }           
-    }
-}
 /* us-------------------------------------------------------------------------------------------------------------- */
 
 
