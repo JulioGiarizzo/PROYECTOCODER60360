@@ -1,11 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@100;400&family=Roboto+Slab&display=swap");
-main .fotomain {
-  width: 100%;
-  padding-top: 0.5%;
-  border-radius: 15px;
-}
-
 /* --------------------------------------------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@100;400&family=Roboto+Slab&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -49,22 +43,137 @@ h1 {
   height: 100%;
 }
 
+@media screen and (min-width: 1200) {
+  .navbar {
+    font-size: 40px;
+  }
+}
 @media screen and (min-width: 350px) {
-  .nav-link {
-    text-align: center;
+  footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  footer img {
+    height: 40px;
+    width: 40px;
+  }
+  footer .gracia {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     color: white;
+    width: 40%;
+    text-align: center;
+  }
+  footer .footerc {
+    border: white solid 1px;
+    text-align: center;
+    width: 50%;
+  }
+  footer .footerc p {
+    padding-top: 15px;
+  }
+  footer ul {
+    display: flex;
+    padding: 0;
+    width: 35%;
+    list-style: none;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  footer a {
+    color: white;
+    padding-top: 10px;
+    text-decoration: none;
   }
 }
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 768px) {
-  .nav-link {
+  footer {
+    background-color: black;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+  }
+  footer .gracia {
+    width: 300px;
+  }
+  footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  footer .footerc {
+    margin: 8px;
+    padding: 8px;
     text-align: center;
+    border-radius: 8px;
+    border: white 1px solid;
+    width: 320px;
+  }
+  footer .footerc a {
+    font-size: 20px;
+  }
+  footer .footerc a p {
     color: white;
+    font-size: 30px;
   }
 }
+/* -------------------------------------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 1200px) {
-  .nav-link {
+  footer {
+    width: 100%;
+    height: 200px;
+    font-size: 35px;
+  }
+  footer .gracia p {
     color: white;
-    font-size: 22px;
+    font-size: 40px;
+  }
+  footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  footer ul li a {
+    list-style: none;
+  }
+  footer ul li a img {
+    width: 80px;
+    height: 80px;
+  }
+  footer ul li a img:hover {
+    transition-duration: 0.3s;
+    transform: scale(2.1);
+    box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.382);
+  }
+  footer .footerc {
+    text-align: center;
+    border-radius: 8px;
+    border: white 1px solid;
+    width: 350px;
+  }
+  footer .footerc:hover {
+    transform: scale(1.5);
+    transition-duration: 0.3s;
+    box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.382);
   }
 }
 @media screen and (min-width: 350px) {
@@ -98,8 +207,6 @@ h1 {
   .cuadro h2 {
     margin: 0;
     overflow: hidden;
-    font-size: 30px;
-    font-weight: bold;
   }
   .cuadro p {
     text-align: center;
@@ -130,7 +237,6 @@ h1 {
   .secindexdos h2 {
     background-color: yellow;
     font-weight: bold;
-    font-size: 25px;
   }
   .secindexdos .reco {
     display: flex;
@@ -152,7 +258,6 @@ h1 {
     background-color: yellow;
     width: 100%;
     text-align: center;
-    font-weight: bold;
   }
   .secindexdos .reco article img {
     padding: 10px;
@@ -178,7 +283,7 @@ h1 {
 /* ------------------------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 768px) {
   .cuadro h2 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
   }
   .cuadro .comunity:active {
@@ -191,7 +296,6 @@ h1 {
     color: black;
     font-weight: bold;
     background-color: yellow;
-    font-size: 35px;
   }
   .secindexdos .reco {
     display: grid;
@@ -337,465 +441,6 @@ h1 {
     background-color: green;
     transform: scale(1.1);
     transition: 0.3s;
-  }
-}
-@media screen and (min-width: 350px) {
-  .secprod1 {
-    background-color: rgb(11, 11, 96);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border: solid white 1px;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  .secprod1 h2 {
-    margin-top: 0;
-    font-size: 25px;
-    font-weight: bold;
-    background-color: yellow;
-    width: 100%;
-    text-align: center;
-  }
-  .secprod1 p {
-    color: white;
-    text-align: center;
-    padding: 8px;
-  }
-  .secprod2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  .secprod2 h2 {
-    background-color: yellow;
-    font-size: 30px;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-  }
-  .secprod2 .productocontenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  .secprod2 .productocontenedor .producto {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(5, 62, 62);
-    width: 95%;
-    justify-content: space-between;
-    gap: 1rem;
-    align-items: center;
-    padding: 8px;
-    border: solid white 1px;
-    border-radius: 8px;
-  }
-  .secprod2 .productocontenedor .producto h3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(236, 101, 128);
-    margin-top: 0%;
-    width: 100%;
-    text-align: center;
-    height: 3rem;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .secprod2 .productocontenedor .producto img {
-    width: 100%;
-    height: 40%;
-    object-fit: cover;
-  }
-  .secprod2 .productocontenedor .producto p {
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    padding: 7px;
-  }
-  .secprod2 .productocontenedor .producto a {
-    background-color: black;
-    color: white;
-    font-size: 15px;
-    padding: 5px;
-    border: solid white 1px;
-    text-align: center;
-    border-radius: 8px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .secprod1 {
-    background-color: rgb(11, 11, 96);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border: solid white 1px;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  .secprod1 h2 {
-    margin-top: 0;
-    font-size: 25px;
-    font-weight: bold;
-    background-color: yellow;
-    width: 100%;
-    text-align: center;
-  }
-  .secprod1 p {
-    color: white;
-    text-align: center;
-    padding: 8px;
-  }
-  .secprod2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  .secprod2 h2 {
-    background-color: yellow;
-    font-size: bold;
-    font-size: 45px;
-    text-align: center;
-    width: 100%;
-  }
-  .secprod2 .productocontenedor {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    width: 95%;
-  }
-  .secprod2 .productocontenedor .producto {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(8, 114, 114);
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
-    gap: 1rem;
-    align-items: center;
-    padding: 8px;
-    border: solid white 1px;
-    border-radius: 8px;
-  }
-  .secprod2 .productocontenedor .producto h3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(228, 41, 78);
-    margin-top: 0%;
-    width: 100%;
-    text-align: center;
-    height: 3rem;
-    font-weight: bold;
-    font-size: 25px;
-  }
-  .secprod2 .productocontenedor .producto img {
-    width: 100%;
-    height: 40%;
-    object-fit: cover;
-  }
-  .secprod2 .productocontenedor .producto p {
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    padding: 7px;
-  }
-  .secprod2 .productocontenedor .producto a {
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    padding: 8px;
-    border: solid white 1px;
-    text-align: center;
-    border-radius: 8px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .secprod1 {
-    background-color: rgb(11, 11, 96);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border: solid white 1px;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  .secprod1 h2 {
-    margin-top: 0;
-    font-size: 55px;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    background-color: yellow;
-  }
-  .secprod1 p {
-    color: white;
-    text-align: center;
-    padding: 8px;
-    font-size: 25px;
-  }
-  .secprod2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    gap: 1rem;
-  }
-  .secprod2 h2 {
-    font-size: 55px;
-    font-weight: bold;
-    background-color: yellow;
-    text-align: center;
-    width: 100%;
-  }
-  .secprod2 .productocontenedor {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    width: 95%;
-  }
-  .secprod2 .productocontenedor .producto {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(8, 114, 114);
-    width: 100%;
-    justify-content: space-between;
-    gap: 1rem;
-    align-items: center;
-    padding: 8px;
-    border: solid white 1px;
-    border-radius: 8px;
-  }
-  .secprod2 .productocontenedor .producto h3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    background-color: rgb(228, 41, 78);
-    width: 100%;
-    text-align: center;
-    height: 3rem;
-    font-weight: bold;
-    font-size: 50px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    color: black;
-  }
-  .secprod2 .productocontenedor .producto img {
-    width: 100%;
-    height: 40%;
-    object-fit: cover;
-  }
-  .secprod2 .productocontenedor .producto p {
-    color: white;
-    font-size: 35px;
-    text-align: center;
-    padding: 7px;
-  }
-  .secprod2 .productocontenedor .producto a {
-    background-color: black;
-    color: white;
-    font-size: 25px;
-    padding: 8px;
-    border: solid white 1px;
-    text-align: center;
-    border-radius: 8px;
-  }
-  .secprod2 .productocontenedor .producto a:hover {
-    background-color: rgb(100, 5, 5);
-    transform: scale(1.2);
-    transition: 300ms;
-  }
-}
-@media screen and (min-width: 350px) {
-  .contanos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  .contanos h2 {
-    background-color: yellow;
-    font-size: 25px;
-    text-align: center;
-    font-weight: bold;
-    width: 100%;
-  }
-  .contanos .griform {
-    width: 100%;
-    background-color: rgb(36, 4, 67);
-  }
-  .contanos .griform figure {
-    width: 100%;
-    object-fit: cover;
-  }
-  .contanos .griform form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: start;
-    padding-left: 5px;
-  }
-  .contanos .griform form div {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 5px;
-  }
-  .contanos .griform form label {
-    color: aliceblue;
-  }
-  .contanos .griform form .inputsubmit {
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
-    gap: 5px;
-  }
-  .contanos .griform form .inputsubmit .submit {
-    background-color: black;
-    color: white;
-    padding: 5px;
-    border: solid white 1px;
-    border-radius: 8px;
-  }
-}
-/* --------------------------------------------------------------------------------------------------------------------------------------------- */
-@media screen and (min-width: 768px) {
-  .contanos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  .contanos h2 {
-    background-color: yellow;
-    font-size: 35px;
-    text-align: center;
-    font-weight: bold;
-    width: 100%;
-  }
-  .contanos .griform {
-    width: 100%;
-  }
-  .contanos .griform figure {
-    width: 100%;
-    object-fit: cover;
-  }
-  .contanos .griform form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: start;
-    padding-left: 5px;
-  }
-  .contanos .griform form div label {
-    color: aliceblue;
-    font-size: 25px;
-  }
-  .contanos .griform form div .nombre {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 5px;
-  }
-  .contanos .griform form div .correo {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 5px;
-  }
-  .contanos .griform form div .consulta {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 5px;
-  }
-  .contanos .griform form div .mensaje {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 5px;
-  }
-  .contanos .griform form div .inputsubmit {
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
-    gap: 5px;
-    padding: 5px;
-    font-weight: bold;
-  }
-}
-/*---------------------------------------------------------------------------------------------------------------------------------------------- */
-@media screen and (min-width: 1200px) {
-  .contanos {
-    width: 100%;
-  }
-  .contanos h2 {
-    font-size: 50px;
-    font-weight: bold;
-    background-color: yellow;
-    font-size: 50px;
-    text-align: center;
-  }
-  .contanos .griform {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-size: 25px;
-    justify-content: center;
-    align-items: center;
-    border: solid white 1px;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 5px;
-    padding-top: 8px;
-    background-color: rgb(36, 4, 67);
-  }
-  .contanos .griform figure img {
-    height: 850px;
-    width: 1500px;
-    padding-left: 5px;
-    object-fit: cover;
-  }
-  .contanos .griform form {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    height: 100%;
-    gap: 25px;
-    object-fit: cover;
-    padding-bottom: 8px;
-  }
-  .contanos .griform form .inputsubmit {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-  }
-  .contanos .griform form .submit {
-    background-color: black;
-    color: aliceblue;
-    border: solid white 1px;
-    border-radius: 5px;
-    padding: 5px;
-  }
-  .contanos .griform form .submit:hover {
-    background-color: white;
-    color: black;
-    transition: 270ms;
   }
 }
 @media screen and (min-width: 350px) {
@@ -984,6 +629,283 @@ h1 {
   }
 }
 @media screen and (min-width: 350px) {
+  .secprod1 {
+    background-color: rgb(11, 11, 96);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: solid white 1px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .secprod1 h2 {
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+  }
+  .secprod1 p {
+    color: white;
+    text-align: center;
+    padding: 8px;
+  }
+  .secprod2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .secprod2 h2 {
+    background-color: yellow;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+  }
+  .secprod2 .productocontenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .secprod2 .productocontenedor .producto {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(5, 62, 62);
+    width: 95%;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    padding: 8px;
+    border: solid white 1px;
+    border-radius: 8px;
+  }
+  .secprod2 .productocontenedor .producto h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 101, 128);
+    margin-top: 0%;
+    width: 100%;
+    text-align: center;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .secprod2 .productocontenedor .producto img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+  }
+  .secprod2 .productocontenedor .producto p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 7px;
+  }
+  .secprod2 .productocontenedor .producto a {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    border: solid white 1px;
+    text-align: center;
+    border-radius: 8px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .secprod1 {
+    background-color: rgb(11, 11, 96);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: solid white 1px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .secprod1 h2 {
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: yellow;
+    width: 100%;
+    text-align: center;
+  }
+  .secprod1 p {
+    color: white;
+    text-align: center;
+    padding: 8px;
+  }
+  .secprod2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .secprod2 h2 {
+    background-color: yellow;
+    font-size: bold;
+    font-size: 35px;
+    text-align: center;
+  }
+  .secprod2 .productocontenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 95%;
+  }
+  .secprod2 .productocontenedor .producto {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(8, 114, 114);
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    padding: 8px;
+    border: solid white 1px;
+    border-radius: 8px;
+  }
+  .secprod2 .productocontenedor .producto h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 41, 78);
+    margin-top: 0%;
+    width: 100%;
+    text-align: center;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .secprod2 .productocontenedor .producto img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+  }
+  .secprod2 .productocontenedor .producto p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 7px;
+  }
+  .secprod2 .productocontenedor .producto a {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    border: solid white 1px;
+    text-align: center;
+    border-radius: 8px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .secprod1 {
+    background-color: rgb(11, 11, 96);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: solid white 1px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .secprod1 h2 {
+    margin-top: 0;
+    font-size: 55px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+  }
+  .secprod1 p {
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 25px;
+  }
+  .secprod2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+  }
+  .secprod2 h2 {
+    font-size: 55px;
+    font-weight: bold;
+  }
+  .secprod2 .productocontenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 95%;
+  }
+  .secprod2 .productocontenedor .producto {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(8, 114, 114);
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    padding: 8px;
+    border: solid white 1px;
+    border-radius: 8px;
+  }
+  .secprod2 .productocontenedor .producto h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(228, 41, 78);
+    width: 100%;
+    text-align: center;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+  }
+  .secprod2 .productocontenedor .producto img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+  }
+  .secprod2 .productocontenedor .producto p {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 7px;
+  }
+  .secprod2 .productocontenedor .producto a {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 8px;
+    border: solid white 1px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  .secprod2 .productocontenedor .producto a:hover {
+    background-color: rgb(100, 5, 5);
+    transform: scale(1.2);
+    transition: 300ms;
+  }
+}
+@media screen and (min-width: 350px) {
   .sectinfo {
     background-color: rgb(20, 20, 85);
     display: flex;
@@ -1090,13 +1012,6 @@ h1 {
 @media screen and (min-width: 768px) {
   .sectinfo {
     background-color: rgb(4, 4, 54);
-  }
-  .sectinfo h2 {
-    background-color: yellow;
-    width: 100%;
-    text-align: center;
-    font-size: 35px;
-    font-weight: bold;
   }
   .sectinfo .infocla {
     display: grid;
@@ -1273,476 +1188,71 @@ h1 {
     margin-bottom: 10px;
   }
 }
-/* us-------------------------------------------------------------------------------------------------------------- */
-/*productos------------------------------------------------------------------------------------------ */
-.secprod1 {
-  background-color: rgb(11, 11, 96);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  border: solid white 1px;
-  border-radius: 8px;
-  overflow: hidden;
-}
-.secprod1 h2 {
-  margin-top: 0;
-  font-size: 25px;
-  font-weight: bold;
-}
-.secprod1 p {
-  color: white;
-  text-align: center;
-  padding: 8px;
-}
-
-.secprod2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
-.secprod2 .productocontenedor {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
-.secprod2 .productocontenedor .producto {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(5, 62, 62);
-  width: 95%;
-  justify-content: space-between;
-  gap: 1rem;
-  align-items: center;
-  padding: 8px;
-  border: solid white 1px;
-  border-radius: 8px;
-}
-.secprod2 .productocontenedor .producto h3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(236, 101, 128);
-  margin-top: 0%;
-  width: 100%;
-  text-align: center;
-  height: 3rem;
-  font-weight: bold;
-  font-size: 20px;
-}
-.secprod2 .productocontenedor .producto img {
-  width: 100%;
-  height: 40%;
-  object-fit: cover;
-}
-.secprod2 .productocontenedor .producto p {
-  color: white;
-  font-size: 18px;
-  text-align: center;
-  padding: 7px;
-}
-.secprod2 .productocontenedor .producto a {
-  background-color: black;
-  color: white;
-  font-size: 15px;
-  padding: 5px;
-  border: solid white 1px;
-  text-align: center;
-  border-radius: 8px;
-}
-
-/* Info-------------------------------------------------------- */
-.sectinfo {
-  background-color: rgb(20, 20, 85);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  border: white solid 1px;
-  border-radius: 8px;
-  overflow: hidden;
-}
-.sectinfo h2 {
-  margin-top: 0;
-  font-weight: bold;
-  font-size: 25px;
-}
-.sectinfo .infocla {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 90%;
-  gap: 1rem;
-  padding: 10px;
-}
-.sectinfo .infocla .info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  border: solid white 1px;
-  border-radius: 8px;
-  overflow: hidden;
-  background-color: rgb(73, 73, 109);
-}
-.sectinfo .infocla .info h3 {
-  background-color: rgb(16, 159, 0);
-  width: 100%;
-  text-align: center;
-  font-weight: bold;
-}
-.sectinfo .infocla .info img {
-  width: 100%;
-  height: 40%;
-  object-fit: cover;
-  padding: 5px;
-}
-.sectinfo .infocla .info p {
-  color: white;
-  font-size: 15px;
-  text-align: center;
-  margin: 5px;
-}
-.sectinfo .infocla .info .investiga {
-  text-decoration: none;
-  color: white;
-  background-color: black;
-  border: solid white 1px;
-  border-radius: 8px;
-  padding: 5px;
-  margin: 8px;
-}
-
-.prervenir {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-color: blue;
-}
-.prervenir h2 {
-  font-size: 25px;
-  font-weight: bold;
-}
-.prervenir .orden {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-right: 8px;
-  background-color: rgb(0, 106, 255);
-  border: solid white 1px;
-  color: white;
-  list-style: decimal;
-  padding-top: 5px;
-}
-.prervenir .orden strong {
-  color: black;
-  text-decoration: underline;
-}
-.prervenir .orden .conclution {
-  background-color: rgb(16, 129, 46);
-  text-align: center;
-  padding: 1rem;
-  padding-bottom: 5px;
-  width: 100%;
-  margin-bottom: 10px;
-  align-self: flex-start;
-}
-
-/* contacto---------------------------------------------------- */
-.contanos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-.contanos .griform {
-  width: 100%;
-  background-color: rgb(36, 4, 67);
-}
-.contanos .griform figure {
-  width: 100%;
-  object-fit: cover;
-}
-.contanos .griform form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: start;
-  padding-left: 5px;
-}
-.contanos .griform form div {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 5px;
-}
-.contanos .griform form label {
-  color: aliceblue;
-}
-.contanos .griform form .inputsubmit {
-  display: flex;
-  flex-direction: row;
-  padding: 5px;
-  gap: 5px;
-}
-.contanos .griform form .inputsubmit .submit {
-  background-color: black;
-  color: white;
-  padding: 5px;
-  border: solid white 1px;
-  border-radius: 8px;
-}
-
-/* footer------------------------------------------------------ */
-footer {
-  width: 100%;
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  gap: 10px;
-  margin-top: 15px;
-}
-footer img {
-  height: 40px;
-  width: 40px;
-}
-footer .gracia {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  width: 40%;
-  text-align: center;
-}
-footer .footerc {
-  border: white solid 1px;
-  text-align: center;
-  width: 50%;
-}
-footer .footerc p {
-  padding-top: 15px;
-}
-footer ul {
-  display: flex;
-  padding: 0;
-  width: 35%;
-  list-style: none;
-  justify-content: space-between;
-  gap: 1rem;
-}
-footer a {
-  color: white;
-  padding-top: 10px;
-  text-decoration: none;
-}
-
-/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-@media screen and (min-width: 768px) {
-  h1 {
-    text-align: center;
-    padding: 8px;
-  }
-  .navbar-nav {
-    background-color: black;
-  }
-  /* us      ................................................................... */
-  .pro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-  }
-  .pro h2 {
-    background-color: yellow;
-    text-align: center;
-    margin-top: 8px;
-    width: 100%;
-    font-size: 30px;
-  }
-  .pro .us {
-    width: 85%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(1, 1, 53);
-    border: solid white 1.5px;
-  }
-  .pro .us img {
-    width: 100%;
-    padding: 0.5rem;
-  }
-  .pro .us div {
-    color: white;
-    text-align: center;
-    padding: 8px;
-    display: flex;
-    flex-direction: column;
-    flex-direction: column;
-    align-items: center;
-    overflow: auto;
-    flex-grow: 1;
-    flex-shrink: 1;
-  }
-  .pro .us div h3 {
-    background-color: yellow;
-    width: 100%;
-    text-align: center;
-    color: black;
-    font-size: 35px;
-  }
-  .pro .us div p {
-    padding: 15px;
-    font-size: 25px;
-  }
-  .pro .us div a {
-    background-color: black;
-    border-radius: 8px;
-    border: solid white 1px;
-    margin-bottom: 10px;
-    padding: 8px;
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-  }
-  /* productos------------------------------------------------------ */
-  .secprod1 {
-    background-color: rgb(11, 11, 96);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border: solid white 1px;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  .secprod1 h2 {
-    margin-top: 0;
-    font-size: 25px;
-    font-weight: bold;
-  }
-  .secprod1 p {
-    color: white;
-    text-align: center;
-    padding: 8px;
-  }
-  .secprod2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  .secprod2 h2 {
-    background-color: yellow;
-    font-size: bold;
-  }
-  .secprod2 .productocontenedor {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    width: 95%;
-  }
-  .secprod2 .productocontenedor .producto {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(8, 114, 114);
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
-    gap: 1rem;
-    align-items: center;
-    padding: 8px;
-    border: solid white 1px;
-    border-radius: 8px;
-  }
-  .secprod2 .productocontenedor .producto h3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(228, 41, 78);
-    margin-top: 0%;
-    width: 100%;
-    text-align: center;
-    height: 3rem;
-    font-weight: bold;
-    font-size: 25px;
-  }
-  .secprod2 .productocontenedor .producto img {
-    width: 100%;
-    height: 40%;
-    object-fit: cover;
-  }
-  .secprod2 .productocontenedor .producto p {
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    padding: 7px;
-  }
-  .secprod2 .productocontenedor .producto a {
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    padding: 8px;
-    border: solid white 1px;
-    text-align: center;
-    border-radius: 8px;
-  }
-  /* info-------------------------------------------------------- */
-  .sectinfo {
-    background-color: rgb(4, 4, 54);
-  }
-  .sectinfo .infocla {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-  }
-  .sectinfo .infocla .info {
-    height: 100%;
-    width: 100%;
-    background-color: rgb(86, 86, 188);
-  }
-  .sectinfo .infocla .info h3 {
-    background-color: rgb(199, 251, 147);
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-  }
-  .sectinfo .infocla .info img {
-    width: 100%;
-    height: 45%;
-    object-fit: cover;
-    padding: 5px;
-  }
-  .sectinfo .infocla .info p {
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    margin: 5px;
-  }
-  .sectinfo .infocla .info .investiga {
-    font-size: 18px;
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    border: solid white 1px;
-    border-radius: 8px;
-    padding: 5px;
-    margin: 8px;
-  }
-  /* contacto---------------------------------------------------- */
+@media screen and (min-width: 350px) {
   .contanos {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+  }
+  .contanos h2 {
+    background-color: yellow;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+  }
+  .contanos .griform {
+    width: 100%;
+    background-color: rgb(36, 4, 67);
+  }
+  .contanos .griform figure {
+    width: 100%;
+    object-fit: cover;
+  }
+  .contanos .griform form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    padding-left: 5px;
+  }
+  .contanos .griform form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+  }
+  .contanos .griform form label {
+    color: aliceblue;
+  }
+  .contanos .griform form .inputsubmit {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 5px;
+  }
+  .contanos .griform form .inputsubmit .submit {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: solid white 1px;
+    border-radius: 8px;
+  }
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 768px) {
+  .contanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .contanos h2 {
+    background-color: yellow;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
     width: 100%;
   }
   .contanos .griform {
@@ -1795,323 +1305,18 @@ footer a {
     padding: 5px;
     font-weight: bold;
   }
-  /* footer------------------------------------------------------ */
-  footer {
-    background-color: black;
-    width: 100%;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    font-size: 20px;
-  }
-  footer .gracia {
-    width: 300px;
-  }
-  footer ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-  footer .footerc {
-    margin: 8px;
-    padding: 8px;
-    text-align: center;
-    border-radius: 8px;
-    border: white 1px solid;
-    width: 320px;
-  }
-  footer .footerc a {
-    font-size: 20px;
-  }
-  footer .footerc a p {
-    color: white;
-    font-size: 30px;
-  }
 }
-/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/*---------------------------------------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 1200px) {
-  h1 {
-    font-size: 70px;
-    width: 350px;
-  }
-  .navbar-nav {
-    font-size: 22px;
-  }
-  .nav-link {
-    margin: 1rem;
-  }
-  .navbar-nav .nav-link:hover {
-    transform: scale(1.2);
-    transition: 200ms;
-    color: rgb(255, 238, 0);
-  }
-  /* us---------------------------------- */
-  .pro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .pro h2 {
-    margin-top: 10px;
-    font-weight: bold;
-    font-size: 50px;
-  }
-  .pro .us {
-    width: 75%;
-    height: 550px;
-    margin: 2rem;
-    border: 2px white solid;
-    border-radius: 8px;
-    overflow: hidden;
-    background-color: rgb(29, 29, 47);
-    display: flex;
-    flex-direction: row;
-  }
-  .pro .us img {
-    height: 550px;
-    min-width: 400px;
-    max-width: 1100px;
-    object-fit: cover;
-  }
-  .pro .us div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0.8rem;
-    background-color: rgb(30, 30, 59);
-    margin: 1rem;
-    min-width: 450px;
-    max-width: 550px;
-    min-height: 95%;
-  }
-  .pro .us div h3 {
-    background-color: yellow;
-    font-size: 40px;
-    width: 100%;
-    text-align: center;
-  }
-  .pro .us div p {
-    font-size: 25px;
-    color: white;
-  }
-  .pro .us div a {
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-    background-color: black;
-    border-radius: 8px;
-    border: solid white 1px;
-    padding: 5px;
-    margin: 12px;
-  }
-  .pro .us div a:hover {
-    background-color: green;
-    transform: scale(1.1);
-    transition: 0.3s;
-  }
-  /* productos--------------------------------------------------------------------------------------- */
-  .secprod1 {
-    background-color: rgb(11, 11, 96);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border: solid white 1px;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  .secprod1 h2 {
-    margin-top: 0;
-    font-size: 55px;
-    font-weight: bold;
-  }
-  .secprod1 p {
-    color: white;
-    text-align: center;
-    padding: 8px;
-    font-size: 25px;
-  }
-  .secprod2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    gap: 1rem;
-  }
-  .secprod2 h2 {
-    font-size: 55px;
-    font-weight: bold;
-  }
-  .secprod2 .productocontenedor {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    width: 95%;
-  }
-  .secprod2 .productocontenedor .producto {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(8, 114, 114);
-    width: 100%;
-    justify-content: space-between;
-    gap: 1rem;
-    align-items: center;
-    padding: 8px;
-    border: solid white 1px;
-    border-radius: 8px;
-  }
-  .secprod2 .productocontenedor .producto h3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    background-color: rgb(228, 41, 78);
-    width: 100%;
-    text-align: center;
-    height: 3rem;
-    font-weight: bold;
-    font-size: 50px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    color: black;
-  }
-  .secprod2 .productocontenedor .producto img {
-    width: 100%;
-    height: 40%;
-    object-fit: cover;
-  }
-  .secprod2 .productocontenedor .producto p {
-    color: white;
-    font-size: 35px;
-    text-align: center;
-    padding: 7px;
-  }
-  .secprod2 .productocontenedor .producto a {
-    background-color: black;
-    color: white;
-    font-size: 25px;
-    padding: 8px;
-    border: solid white 1px;
-    text-align: center;
-    border-radius: 8px;
-  }
-  .secprod2 .productocontenedor .producto a:hover {
-    background-color: rgb(100, 5, 5);
-    transform: scale(1.2);
-    transition: 300ms;
-  }
-  /* info-------------------------------------------------------- */
-  .sectinfo {
-    background-color: rgb(5, 5, 33);
-  }
-  .sectinfo h2 {
-    font-size: 50px;
-  }
-  .sectinfo .infocla {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-  }
-  .sectinfo .infocla .info {
-    height: 100%;
-    width: 100%;
-    background-color: rgb(86, 86, 188);
-  }
-  .sectinfo .infocla .info h3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(123, 232, 15);
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 40px;
-    height: 70px;
-  }
-  .sectinfo .infocla .info img {
-    width: 100%;
-    height: 50%;
-    object-fit: cover;
-    padding: 5px;
-  }
-  .sectinfo .infocla .info p {
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    margin: 5px;
-    background-color: rgb(3, 3, 57);
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    padding: 5px;
-  }
-  .sectinfo .infocla .info .investiga {
-    font-size: 25px;
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    border: solid white 1px;
-    border-radius: 8px;
-    padding: 5px;
-    margin: 8px;
-  }
-  .sectinfo .infocla .info .investiga:hover {
-    background-color: green;
-    transform: scale(1.2);
-    transition: 300ms;
-  }
-  .prevenir {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: blue;
-    width: 100%;
-  }
-  .prevenir h2 {
-    font-size: 42px;
-    font-weight: bold;
-  }
-  .prevenir .orden {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    padding-right: 8px;
-    background-color: rgb(0, 106, 255);
-    border: solid white 1px;
-    color: white;
-    list-style: decimal;
-    padding-top: 5px;
-    width: 100%;
-    font-size: 30px;
-  }
-  .prevenir .orden strong {
-    color: black;
-    text-decoration: underline;
-  }
-  .prevenir .orden strong .conclution {
-    background-color: rgb(16, 129, 46);
-    text-align: center;
-    padding: 1rem;
-    padding-bottom: 5px;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  /* contacto---------------------------------------------------- */
   .contanos {
     width: 100%;
   }
   .contanos h2 {
     font-size: 50px;
     font-weight: bold;
+    background-color: yellow;
+    font-size: 50px;
+    text-align: center;
   }
   .contanos .griform {
     width: 100%;
@@ -2159,47 +1364,57 @@ footer a {
     color: black;
     transition: 270ms;
   }
-  /* footer------------------------------------------------------ */
-  footer {
-    width: 100%;
-    height: 200px;
-    font-size: 35px;
-  }
-  footer .gracia p {
-    color: white;
-    font-size: 40px;
-  }
-  footer ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-  }
-  footer ul li a {
-    list-style: none;
-  }
-  footer ul li a img {
-    width: 80px;
-    height: 80px;
-  }
-  footer ul li a img:hover {
-    transition-duration: 0.3s;
-    transform: scale(2.1);
-    box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.382);
-  }
-  footer .footerc {
-    text-align: center;
-    border-radius: 8px;
-    border: white 1px solid;
-    width: 350px;
-  }
-  footer .footerc:hover {
-    transform: scale(1.5);
-    transition-duration: 0.3s;
-    box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.382);
-  }
 }
+/* 350 */
+/* us-------------------------------------------------------------------------------------------------------------- */
+/*productos------------------------------------------------------------------------------------------ */
+/* Info-------------------------------------------------------- */
+/* contacto---------------------------------------------------- */
+/* footer------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*  h1{
+       text-align: center;
+       padding: 8px;
+   }
+
+   .navbar-nav{
+       background-color: black;
+
+   }
+*/
+/* us      ................................................................... */
+/* productos------------------------------------------------------ */
+/* info-------------------------------------------------------- */
+/* contacto---------------------------------------------------- */
+/* footer------------------------------------------------------ */
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
+/* h1{
+       font-size: 70px;
+       width: 350px;
+   }
+
+   .navbar-nav{
+
+       font-size: 22px;
+   }
+
+   .nav-link{
+       margin: 1rem;
+   }
+
+   .navbar-nav .nav-link:hover{
+
+       transform: scale(1.2);
+       transition: 200ms;
+       color: rgb(255, 238, 0);
+
+
+   }
+*/
+/* us---------------------------------- */
+/* productos--------------------------------------------------------------------------------------- */
+/* info-------------------------------------------------------- */
+/* contacto---------------------------------------------------- */
+/* footer------------------------------------------------------ */
 
 /*# sourceMappingURL=style.css.map */
