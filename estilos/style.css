@@ -1,11 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@100;400&family=Roboto+Slab&display=swap");
-main .fotomain {
-  width: 100%;
-  padding-top: 0.5%;
-  border-radius: 15px;
-}
-
 /* --------------------------------------------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@100;400&family=Roboto+Slab&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -60,6 +54,7 @@ h1 {
     color: white;
   }
 }
+/* @import "comoponents/footer"; */
 @media screen and (min-width: 350px) {
   h1 {
     height: 100%;
@@ -272,6 +267,8 @@ h1 {
   }
   .secindexdos h2 {
     width: 100%;
+    font-size: 40px;
+    font-weight: bold;
   }
   .secindexdos .reco {
     display: grid;
@@ -361,6 +358,7 @@ h1 {
     text-align: center;
     width: 100%;
     font-size: 20px;
+    font-weight: bold;
   }
   .pro .us div p {
     color: white;
@@ -423,6 +421,7 @@ h1 {
     text-align: center;
     color: black;
     font-size: 35px;
+    font-weight: bold;
   }
   .pro .us div p {
     padding: 15px;
@@ -486,6 +485,7 @@ h1 {
     font-size: 40px;
     width: 100%;
     text-align: center;
+    font-weight: bold;
   }
   .pro .us div p {
     font-size: 25px;
@@ -536,6 +536,13 @@ h1 {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+  }
+  .secprod2 h2 {
+    background-color: yellow;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
   }
   .secprod2 .productocontenedor {
     display: flex;
@@ -622,6 +629,8 @@ h1 {
   .secprod2 h2 {
     background-color: yellow;
     font-size: bold;
+    font-size: 35px;
+    text-align: center;
   }
   .secprod2 .productocontenedor {
     display: grid;
@@ -1058,55 +1067,188 @@ h1 {
     margin-bottom: 10px;
   }
 }
+@media screen and (min-width: 350px) {
+  .contanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .contanos h2 {
+    background-color: yellow;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+  }
+  .contanos .griform {
+    width: 100%;
+    background-color: rgb(36, 4, 67);
+  }
+  .contanos .griform figure {
+    width: 100%;
+    object-fit: cover;
+  }
+  .contanos .griform form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    padding-left: 5px;
+  }
+  .contanos .griform form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+  }
+  .contanos .griform form label {
+    color: aliceblue;
+  }
+  .contanos .griform form .inputsubmit {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 5px;
+  }
+  .contanos .griform form .inputsubmit .submit {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: solid white 1px;
+    border-radius: 8px;
+  }
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 768px) {
+  .contanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .contanos h2 {
+    background-color: yellow;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+  }
+  .contanos .griform {
+    width: 100%;
+  }
+  .contanos .griform figure {
+    width: 100%;
+    object-fit: cover;
+  }
+  .contanos .griform form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    padding-left: 5px;
+  }
+  .contanos .griform form div label {
+    color: aliceblue;
+    font-size: 25px;
+  }
+  .contanos .griform form div .nombre {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+  }
+  .contanos .griform form div .correo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+  }
+  .contanos .griform form div .consulta {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+  }
+  .contanos .griform form div .mensaje {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+  }
+  .contanos .griform form div .inputsubmit {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 5px;
+    padding: 5px;
+    font-weight: bold;
+  }
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
+  .contanos {
+    width: 100%;
+  }
+  .contanos h2 {
+    font-size: 50px;
+    font-weight: bold;
+    background-color: yellow;
+    font-size: 50px;
+    text-align: center;
+  }
+  .contanos .griform {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    border: solid white 1px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5px;
+    padding-top: 8px;
+    background-color: rgb(36, 4, 67);
+  }
+  .contanos .griform figure img {
+    height: 850px;
+    width: 1500px;
+    padding-left: 5px;
+    object-fit: cover;
+  }
+  .contanos .griform form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100%;
+    gap: 25px;
+    object-fit: cover;
+    padding-bottom: 8px;
+  }
+  .contanos .griform form .inputsubmit {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  .contanos .griform form .submit {
+    background-color: black;
+    color: aliceblue;
+    border: solid white 1px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .contanos .griform form .submit:hover {
+    background-color: white;
+    color: black;
+    transition: 270ms;
+  }
+}
 /* 350 */
 /* us-------------------------------------------------------------------------------------------------------------- */
 /*productos------------------------------------------------------------------------------------------ */
 /* Info-------------------------------------------------------- */
 /* contacto---------------------------------------------------- */
-.contanos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-.contanos .griform {
-  width: 100%;
-  background-color: rgb(36, 4, 67);
-}
-.contanos .griform figure {
-  width: 100%;
-  object-fit: cover;
-}
-.contanos .griform form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: start;
-  padding-left: 5px;
-}
-.contanos .griform form div {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 5px;
-}
-.contanos .griform form label {
-  color: aliceblue;
-}
-.contanos .griform form .inputsubmit {
-  display: flex;
-  flex-direction: row;
-  padding: 5px;
-  gap: 5px;
-}
-.contanos .griform form .inputsubmit .submit {
-  background-color: black;
-  color: white;
-  padding: 5px;
-  border: solid white 1px;
-  border-radius: 8px;
-}
-
 /* footer------------------------------------------------------ */
 footer {
   width: 100%;
@@ -1166,62 +1308,6 @@ footer a {
   /* productos------------------------------------------------------ */
   /* info-------------------------------------------------------- */
   /* contacto---------------------------------------------------- */
-  .contanos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  .contanos .griform {
-    width: 100%;
-  }
-  .contanos .griform figure {
-    width: 100%;
-    object-fit: cover;
-  }
-  .contanos .griform form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: start;
-    padding-left: 5px;
-  }
-  .contanos .griform form div label {
-    color: aliceblue;
-    font-size: 25px;
-  }
-  .contanos .griform form div .nombre {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 5px;
-  }
-  .contanos .griform form div .correo {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 5px;
-  }
-  .contanos .griform form div .consulta {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 5px;
-  }
-  .contanos .griform form div .mensaje {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 5px;
-  }
-  .contanos .griform form div .inputsubmit {
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
-    gap: 5px;
-    padding: 5px;
-    font-weight: bold;
-  }
   /* footer------------------------------------------------------ */
   footer {
     background-color: black;
@@ -1281,59 +1367,6 @@ footer a {
   /* productos--------------------------------------------------------------------------------------- */
   /* info-------------------------------------------------------- */
   /* contacto---------------------------------------------------- */
-  .contanos {
-    width: 100%;
-  }
-  .contanos h2 {
-    font-size: 50px;
-    font-weight: bold;
-  }
-  .contanos .griform {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-size: 25px;
-    justify-content: center;
-    align-items: center;
-    border: solid white 1px;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 5px;
-    padding-top: 8px;
-    background-color: rgb(36, 4, 67);
-  }
-  .contanos .griform figure img {
-    height: 850px;
-    width: 1500px;
-    padding-left: 5px;
-    object-fit: cover;
-  }
-  .contanos .griform form {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    height: 100%;
-    gap: 25px;
-    object-fit: cover;
-    padding-bottom: 8px;
-  }
-  .contanos .griform form .inputsubmit {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-  }
-  .contanos .griform form .submit {
-    background-color: black;
-    color: aliceblue;
-    border: solid white 1px;
-    border-radius: 5px;
-    padding: 5px;
-  }
-  .contanos .griform form .submit:hover {
-    background-color: white;
-    color: black;
-    transition: 270ms;
-  }
   /* footer------------------------------------------------------ */
   footer {
     width: 100%;
