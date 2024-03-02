@@ -1,9 +1,7 @@
 @media screen and (min-width:350px){
 
     .contanos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flecoce();
         width: 100%;
 
         h2{
@@ -67,9 +65,7 @@
 @media screen and (min-width:768px){
 
     .contanos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flecoce();
         width: 100%;
 
         h2{

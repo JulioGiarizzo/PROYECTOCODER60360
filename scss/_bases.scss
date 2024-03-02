@@ -17,6 +17,97 @@ $colores-h:(
     hgral:yellow
 );
 
+/* mixins generales----------------------------------------------------------------------------------------------------------------------------- */
+@mixin flex-col-centerymas(){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+@mixin flecoce(){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* MIXINS PRODUCTOS1200PX----------------------------------------------------------------------------------------------------------------------- */
+
+@mixin flexcenter-productos1200(){
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(8, 114, 114);
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    padding: 8px;
+    border: solid white 1px;
+    border-radius: 8px;
+}
+
+@mixin h3productos1200(){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(228, 41, 78);
+    width: 100%;
+    text-align: center;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 50px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+}
+
+@mixin aproductos1200(){
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 8px;
+    border: solid white 1px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* MIXINS US 350PX------------------------------------------------------------------------------------------------------------------------------ */
+@mixin divus350(){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@mixin us350(){
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(71, 71, 185);
+    border-radius: 8px;
+    border: solid white 1px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    overflow: hidden; 
+}
+
+@mixin usdiva350(){
+
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    border: solid white 1px;
+    padding: 5px;
+    margin: 8px;
+
+}
+
+
 /* PARA LLAMAR A LOS MAPS
 
 EJEMPLO
@@ -56,5 +147,4 @@ h1{
     color: black;
     background-color: $hcolors1;
     height: 100%;
-
 }
