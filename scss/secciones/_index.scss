@@ -295,7 +295,8 @@
         article{
 
             @include flecoce ();
-            justify-content: center;
+            justify-content: space-between;
+            gap: 1rem;
             background-color: rgb(44, 44, 103);
 
 
