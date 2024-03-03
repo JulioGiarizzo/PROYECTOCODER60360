@@ -340,7 +340,8 @@ h1 {
   .secindexdos .reco {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6, 2fr);
+    grid-template-rows: repeat(6, 1fr);
+    padding: 5px;
   }
   .secindexdos .reco article {
     height: 100%;
@@ -435,8 +436,8 @@ h1 {
   .secindexdos .reco {
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 4, 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
     justify-items: center;
     align-items: center;
     width: 95%;
