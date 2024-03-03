@@ -104,7 +104,8 @@
                     }
 
                     img{
-                        padding: 10px;
+                        width: 100%;
+                        height: 35%;
                     }
 
                     p{
@@ -160,6 +161,7 @@
         .reco{
             display: grid;
             grid-template-columns: 1fr 1fr;
+            grid-auto-columns: auto;
 
             article{
                 
@@ -175,7 +177,7 @@
 
                 img{
                     width: 100%;
-                    height: fit-content;
+                    min-height:55%;
                     padding: 10px;
                 }
 
@@ -285,22 +287,17 @@
 
         display: grid;
         gap: 1rem;
-        grid-template-columns:repeat(4,1fr);
+        grid-template-columns:repeat(3,1fr);
         justify-items: center;
         align-items: center;
         width: 95%;
 
         article{
 
-            border-radius: 10px;
-            border: solid white 1px;
-            height:630px;
-            max-width:460px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            gap: 5px;
+            @include flecoce ();
+            justify-content: center;
+            background-color: rgb(44, 44, 103);
+
 
             h3{
                 font-size: 30px;
@@ -311,8 +308,9 @@
             }
 
             img{
-                height: 45%;
-                width: 100%;
+                min-height: 45%;
+                min-width: 100%;
+                object-fit: cover;
             }
 
             p{
@@ -320,6 +318,7 @@
                 font-size: 25px;
                 text-align: center;
                 height: 45%;
+                padding: 8px;
             }
 
             .visitar{
