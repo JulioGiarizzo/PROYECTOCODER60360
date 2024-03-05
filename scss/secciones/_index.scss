@@ -28,7 +28,7 @@
 
 
     .cuadro{
-        background-color: rgb(36, 36, 56);
+        background: radial-gradient(at 0% 0%,rgb(22, 2, 83),rgb(0, 104, 104));
         border: 1px solid white;
         border-radius: 10px;
         @include flecoce();
@@ -91,10 +91,10 @@
 
                 article{
                     @include flecoce();
+                    @include bgartindex350();
                     border: solid white 1.5px;
                     border-radius: 10px;
                     overflow: hidden;
-                    background-color: rgb(20, 20, 76);
                     min-width:fit-content ;
 
                     h3{
@@ -171,10 +171,12 @@
                 width: 100%;
                 background-color: rgb(50, 50, 170);
                 @include flecoce();
+                @include bgartindex768();
                 justify-content: space-between;
 
                 h3{
                     font-size: 25px;
+                    
                 }
 
                 img{
@@ -299,8 +301,8 @@
         article{
 
             @include flecoce ();
+            @include bgartindex1200();
             justify-content: space-between;
-            background-color: rgb(44, 44, 103);
             width: 100%;
             height: 100%;
             padding: 5px;

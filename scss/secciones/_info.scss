@@ -27,11 +27,11 @@
     
                 .info{
                     @include flecoce();
+                    @include bginfo();
                     justify-content: space-between;
                     border: solid white 1px;
                     border-radius: 8px;
                     overflow: hidden;
-                    background-color: rgb(73, 73, 109);
     
                     h3{
                         background-color: rgb(16, 159, 0);
@@ -71,7 +71,6 @@
     
     .prevenir{
         @include flecoce();
-        background-color: blue;
     
         h2{
             font-size: 25px;
@@ -132,7 +131,7 @@
             .info{
                 height: 100%;
                 width: 100%;
-                background-color: rgb(86, 86, 188);
+                @include bginfo();
 
                 h3{background-color: rgb(199, 251, 147);
                     width: 100%;
@@ -190,7 +189,7 @@
             .info{
                 height: 100%;
                 width: 100%;
-                background-color: rgb(86, 86, 188);
+                @include bginfo();
                 
                 h3{
                     display: flex;
@@ -242,27 +241,15 @@
     
             }
         }
-    }
-    
-    
-    .prevenir{
-    
-        @include flecoce();
-        background-color: blue;
-        width: 100%;
-    
-        h2{
-            font-size: 42px;
-            font-weight: bold;
-            .prervenir{
 
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        background-color: blue;
+        
+    }
+
+    .prevenir{
+        @include flecoce();
     
         h2{
-            font-size: 25px;
+            font-size: 45px;
             font-weight: bold;
             background-color: yellow;
             text-align: center;
@@ -271,12 +258,14 @@
     
         .orden{
             @include flecoce();
+            @include bginfo();
             padding-right: 8px;
-            background-color: rgb(0, 106, 255);
             border: solid white 1px;
             color: white;
             list-style: decimal;
             padding-top: 5px;
+            font-size: 35px;
+
     
             strong{
                 color: black;
@@ -290,40 +279,9 @@
                 padding-bottom:5px;
                 width: 100%;
                 margin-bottom: 10px;
-                align-self: flex-start;
+                
             }
         }
-    }   
-        }
-    
-        .orden{
-    
-            display: flex;
-            flex-direction: column;
-            align-items: start;
-            padding-right: 8px;
-            background-color: rgb(0, 106, 255);
-            border: solid white 1px;
-            color: white;
-            list-style: decimal;
-            padding-top: 5px;
-            width: 100%;
-            font-size: 30px;
-    
-            strong{
-                color: black;
-                text-decoration: underline;
-    
-                .conclution{
-                    background-color: rgb(16, 129, 46);
-                    text-align: center;
-                    padding: 1rem;
-                    padding-bottom:5px;
-                    width: 100%;
-                    margin-bottom: 10px;
-                }
-            }
-        }
-    
     }
+
 }

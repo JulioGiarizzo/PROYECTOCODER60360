@@ -7,7 +7,6 @@
 }
 
 /* variables ---------------------------------------------------*/
-/* maps-------------------------------------------------------- */
 /* mixins generales----------------------------------------------------------------------------------------------------------------------------- */
 /* MIXINS PRODUCTOS1200PX----------------------------------------------------------------------------------------------------------------------- */
 /* MIXINS US 350PX------------------------------------------------------------------------------------------------------------------------------ */
@@ -80,6 +79,9 @@ h1 {
     color: rgb(255, 217, 0);
     transform: scale(1.1);
     transition: 300ms;
+  }
+  .nav-link:active {
+    color: rgb(205, 50, 195);
   }
 }
 @media screen and (min-width: 350px) {
@@ -226,7 +228,7 @@ h1 {
     font-size: 20px;
   }
   .cuadro {
-    background-color: rgb(36, 36, 56);
+    background: radial-gradient(at 0% 0%, rgb(22, 2, 83), rgb(0, 104, 104));
     border: 1px solid white;
     border-radius: 10px;
     display: flex;
@@ -285,10 +287,10 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: radial-gradient(at 0% 0%, rgb(117, 121, 169), rgb(5, 115, 97));
     border: solid white 1.5px;
     border-radius: 10px;
     overflow: hidden;
-    background-color: rgb(20, 20, 76);
     min-width: fit-content;
   }
   .secindexdos .reco article h3 {
@@ -350,6 +352,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: radial-gradient(at 0% 0%, rgb(25, 33, 123), rgb(2, 91, 76));
     justify-content: space-between;
   }
   .secindexdos .reco article h3 {
@@ -447,8 +450,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: radial-gradient(at 0% 0%, rgb(0, 59, 130), rgb(5, 115, 23));
     justify-content: space-between;
-    background-color: rgb(44, 44, 103);
     width: 100%;
     height: 100%;
     padding: 5px;
@@ -496,6 +499,7 @@ h1 {
     border: solid white 1px;
     border-radius: 8px;
     overflow: hidden;
+    margin-bottom: 5px;
   }
   .secprod1 h2 {
     margin-top: 0;
@@ -533,7 +537,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(5, 62, 62);
+    background: radial-gradient(at 0% 0%, rgb(33, 164, 33), rgb(5, 62, 62));
     width: 95%;
     justify-content: space-between;
     gap: 1rem;
@@ -546,13 +550,14 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(236, 101, 128);
+    background-color: rgb(243, 129, 8);
     margin-top: 0%;
     width: 100%;
     text-align: center;
     height: 3rem;
     font-weight: bold;
     font-size: 20px;
+    color: black;
   }
   .secprod2 .productocontenedor .producto img {
     width: 100%;
@@ -625,7 +630,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(8, 114, 114);
+    background: radial-gradient(at 0% 0%, rgb(71, 128, 71), rgb(0, 43, 43));
     width: 100%;
     height: 100%;
     justify-content: space-between;
@@ -642,9 +647,10 @@ h1 {
     background-color: rgb(228, 41, 78);
     margin-top: 0%;
     width: 100%;
+    color: black;
+    font-weight: bold;
     text-align: center;
     height: 3rem;
-    font-weight: bold;
     font-size: 25px;
   }
   .secprod2 .productocontenedor .producto img {
@@ -1163,11 +1169,11 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: radial-gradient(at 0% 0%, rgb(140, 48, 140), rgb(53, 0, 53));
     justify-content: space-between;
     border: solid white 1px;
     border-radius: 8px;
     overflow: hidden;
-    background-color: rgb(73, 73, 109);
   }
   .sectinfo .infocla .info h3 {
     background-color: rgb(16, 159, 0);
@@ -1200,7 +1206,6 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blue;
   }
   .prevenir h2 {
     font-size: 25px;
@@ -1255,7 +1260,7 @@ h1 {
   .sectinfo .infocla .info {
     height: 100%;
     width: 100%;
-    background-color: rgb(86, 86, 188);
+    background: radial-gradient(at 0% 0%, rgb(140, 48, 140), rgb(53, 0, 53));
   }
   .sectinfo .infocla .info h3 {
     background-color: rgb(199, 251, 147);
@@ -1303,7 +1308,7 @@ h1 {
   .sectinfo .infocla .info {
     height: 100%;
     width: 100%;
-    background-color: rgb(86, 86, 188);
+    background: radial-gradient(at 0% 0%, rgb(140, 48, 140), rgb(53, 0, 53));
   }
   .sectinfo .infocla .info h3 {
     display: flex;
@@ -1351,68 +1356,31 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: blue;
-    width: 100%;
   }
   .prevenir h2 {
-    font-size: 42px;
-    font-weight: bold;
-  }
-  .prevenir h2 .prervenir {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: blue;
-  }
-  .prevenir h2 .prervenir h2 {
-    font-size: 25px;
+    font-size: 45px;
     font-weight: bold;
     background-color: yellow;
     text-align: center;
     width: 100%;
   }
-  .prevenir h2 .prervenir .orden {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-right: 8px;
-    background-color: rgb(0, 106, 255);
-    border: solid white 1px;
-    color: white;
-    list-style: decimal;
-    padding-top: 5px;
-  }
-  .prevenir h2 .prervenir .orden strong {
-    color: black;
-    text-decoration: underline;
-  }
-  .prevenir h2 .prervenir .orden .conclution {
-    background-color: rgb(16, 129, 46);
-    text-align: center;
-    padding: 1rem;
-    padding-bottom: 5px;
-    width: 100%;
-    margin-bottom: 10px;
-    align-self: flex-start;
-  }
   .prevenir .orden {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
+    background: radial-gradient(at 0% 0%, rgb(140, 48, 140), rgb(53, 0, 53));
     padding-right: 8px;
-    background-color: rgb(0, 106, 255);
     border: solid white 1px;
     color: white;
     list-style: decimal;
     padding-top: 5px;
-    width: 100%;
-    font-size: 30px;
+    font-size: 35px;
   }
   .prevenir .orden strong {
     color: black;
     text-decoration: underline;
   }
-  .prevenir .orden strong .conclution {
+  .prevenir .orden .conclution {
     background-color: rgb(16, 129, 46);
     text-align: center;
     padding: 1rem;

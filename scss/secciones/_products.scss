@@ -7,6 +7,7 @@
         border: solid white 1px;
         border-radius: 8px;
         overflow: hidden;
+        margin-bottom: 5px;
     
     
         h2{
@@ -30,6 +31,7 @@
         @include flecoce();
         gap: 1rem;
 
+
         h2{
             background-color: yellow;
             font-size: 30px;
@@ -44,7 +46,7 @@
     
             .producto{
                 @include flecoce();
-                background-color: rgb(5, 62, 62);
+                @include bgprod1200();
                 width: 95%;
                 justify-content: space-between;
                 gap: 1rem;
@@ -57,13 +59,14 @@
                     flex-direction: row;
                     justify-content: center;
                     align-items: center;
-                    background-color: rgb(236, 101, 128);
+                    background-color: $hcolors2;
                     margin-top: 0%;
                     width: 100%;
                     text-align: center;
                     height: 3rem;
                     font-weight: bold;
                     font-size: 20px;
+                    color: black;
                 }
     
                 img{
@@ -149,7 +152,7 @@
 
                 
                 @include flecoce();
-                background-color: rgb(8, 114, 114);
+                @include bgpro768();
                 width: 100%;
                 height: 100%;
                 justify-content: space-between;
@@ -166,9 +169,10 @@
                     background-color: rgb(228, 41, 78);
                     margin-top: 0%;
                     width: 100%;
+                    color: black;
+                    font-weight: bold;
                     text-align: center;
                     height: 3rem;
-                    font-weight: bold;
                     font-size: 25px;
                 }
 

@@ -9,13 +9,7 @@
 
 /* variables ---------------------------------------------------*/
 $hcolors1: yellow;
-$hcolors2: rgb(236, 101, 128);
-
-/* maps-------------------------------------------------------- */
-$colores-h:(
-    hproducto:rgb(236, 101, 128),
-    hgral:yellow
-);
+$hcolors2: rgb(243, 129, 8);
 
 /* mixins generales----------------------------------------------------------------------------------------------------------------------------- */
 @mixin flex-col-centerymas(){
@@ -26,10 +20,42 @@ $colores-h:(
     gap: 1rem;
 }
 
+@mixin bgprod1200(){
+    background: radial-gradient(at 0% 0%,rgb(33, 164, 33),rgb(5, 62, 62));
+}
+
+@mixin bgpro768(){
+    background: radial-gradient(at 0% 0%,rgb(71, 128, 71),rgb(0, 43, 43));
+}
+
+@mixin bgpro350(){
+    background: radial-gradient(at 0% 0%,rgb(61, 111, 61),rgb(5, 90, 115));
+}
+
+@mixin bgartindex350(){
+    background: radial-gradient(at 0% 0%,rgb(117, 121, 169),rgb(5, 115, 97));
+}
+@mixin bgartindex768(){
+    background: radial-gradient(at 0% 0%,rgb(25, 33, 123),rgb(2, 91, 76));
+
+}
+@mixin bgartindex1200(){
+    background: radial-gradient(at 0% 0%,rgb(0, 59, 130),rgb(5, 115, 23));
+}
+
+
 @mixin flecoce(){
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@mixin bginfo(){
+    background: radial-gradient(at 0% 0%,rgb(140, 48, 140),rgb(53, 0, 53));
+}
+
+@mixin bgpreviene(){
+    background: radial-gradient(at 0% 0%,rgb(15, 60, 208),rgb(1, 152, 152));
 }
 
 /* MIXINS PRODUCTOS1200PX----------------------------------------------------------------------------------------------------------------------- */
