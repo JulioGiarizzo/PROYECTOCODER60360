@@ -32,7 +32,7 @@
             }
     
             ul{
-                display: flex;
+            display: flex;
             padding: 0;
             width: 45%;
             list-style: none;
@@ -64,7 +64,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        font-size: 20px;
+        font-size: 1.25rem;
 
         .gracia{
             width: 300px;
@@ -76,7 +76,7 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            gap: 20px;
+            gap: 1.25rem;
         }
 
         .footerc{
@@ -90,11 +90,11 @@
 
             a{
 
-                font-size: 20px;
+                font-size: 1.25rem;
 
                 p{
                     color: white;
-                    font-size: 30px;
+                    font-size: 1.875rem;
                 }
             }
         }

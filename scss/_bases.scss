@@ -20,6 +20,13 @@ $hcolors2: rgb(243, 129, 8);
     gap: 1rem;
 }
 
+@mixin divs-forms768 (){
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0.3125rem;
+}
+
 @mixin bgprod1200(){
     background: radial-gradient(at 0% 0%,rgb(33, 164, 33),rgb(5, 62, 62));
 }
@@ -84,7 +91,7 @@ $hcolors2: rgb(243, 129, 8);
     text-align: center;
     height: 3rem;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 3.125rem;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     color: black;
@@ -93,7 +100,7 @@ $hcolors2: rgb(243, 129, 8);
 @mixin aproductos1200(){
     background-color: black;
     color: white;
-    font-size: 25px;
+    font-size: 1.5625rem;
     padding: 8px;
     border: solid white 1px;
     text-align: center;
@@ -123,7 +130,7 @@ $hcolors2: rgb(243, 129, 8);
 @mixin usdiva350(){
 
     text-decoration: none;
-    font-size: 15px;
+    font-size: 0.9375rem;
     color: white;
     background-color: black;
     border-radius: 8px;

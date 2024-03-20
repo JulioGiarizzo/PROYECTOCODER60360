@@ -7,7 +7,7 @@
         h2{
             
             background-color: yellow;
-            font-size: 25px;
+            font-size: 1.5625rem;
             text-align: center;
             font-weight: bold;
             width: 100%;
@@ -70,7 +70,7 @@
 
         h2{
             background-color: yellow;
-            font-size: 35px;
+            font-size: 2.1875rem;
             text-align: center;
             font-weight: bold;
             width: 100%;
@@ -95,35 +95,23 @@
                     div{
                         label{
                             color: aliceblue;
-                            font-size: 25px;
+                            font-size: 1.5625rem;
                         }
 
                         .nombre{
-                            display: flex;
-                            flex-direction: column;
-                            width: 100%;
-                            padding: 5px;
+                            @include divs-forms768();
                         }
 
                         .correo{
-                            display: flex;
-                            flex-direction: column;
-                            width: 100%;
-                            padding: 5px;
+                            @include divs-forms768();
                         }
 
                         .consulta{
-                            display: flex;
-                            flex-direction: column;
-                            width: 100%;
-                            padding: 5px;
+                            @include divs-forms768();
                         }
 
                         .mensaje{
-                            display: flex;
-                            flex-direction: column;
-                            width: 100%;
-                            padding: 5px;
+                            @include divs-forms768();
                         }
 
                         .inputsubmit{
@@ -150,10 +138,9 @@
         width: 100%;
     
         h2{
-            font-size: 50px;
+            font-size: 3.125rem;
             font-weight: bold;
             background-color: yellow;
-            font-size: 50px;
             text-align: center;
         }
     
@@ -161,7 +148,7 @@
             width: 100%;
             display: grid;
             grid-template-columns: 1fr 1fr;
-            font-size: 25px;
+            font-size: 1.5625rem;
             justify-content: center;
             align-items: center;
             border: solid white 1px;
@@ -193,7 +180,7 @@
                 .inputsubmit{
                     display: flex;
                     flex-direction: row;
-                    gap: 16px;
+                    gap: 1rem;
                 }
     
                 .submit{
