@@ -329,7 +329,7 @@ h1 {
     font-weight: bold;
   }
   .cuadro .comunity:active {
-    background-color: green;
+    background-color: rgb(221, 173, 0);
   }
   .secindexdos {
     background-color: rgb(1, 15, 29);
