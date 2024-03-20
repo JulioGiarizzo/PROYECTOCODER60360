@@ -53,6 +53,7 @@
                 padding: 8px;
                 border: solid white 1px;
                 border-radius: 8px;
+                box-shadow: 5px 5px 10px rgb(0, 0, 0);
                 
                 h3{
                     display: flex;
@@ -160,6 +161,7 @@
                 padding: 8px;
                 border: solid white 1px;
                 border-radius: 8px;
+                box-shadow: 5px 5px 10px rgb(25, 44, 127);
                 
                 h3{
                     display: flex;
@@ -258,6 +260,7 @@
             .producto{
 
                 @include flexcenter-productos1200();
+                box-shadow: 5px 5px 10px rgb(1, 44, 124);
     
                 h3{
                     @include h3productos1200();

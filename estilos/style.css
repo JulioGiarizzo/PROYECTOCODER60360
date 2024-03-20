@@ -6,7 +6,17 @@
   box-sizing: border-box;
 }
 
+/* variables ---------------------------------------------------*/
+/* mixins generales----------------------------------------------------------------------------------------------------------------------------- */
+/* MIXINS PRODUCTOS1200PX----------------------------------------------------------------------------------------------------------------------- */
+/* MIXINS US 350PX------------------------------------------------------------------------------------------------------------------------------ */
+/* PARA LLAMAR A LOS MAPS
 
+EJEMPLO
+
+backround-color:map-get($colores-h,"hgral");
+
+*/
 ul, li {
   list-style: none;
 }
@@ -392,7 +402,7 @@ h1 {
   }
   main section .cuadro h2 {
     background-color: yellow;
-    font-size: 3.125rem;
+    font-size: 3.4375rem;
     width: 100%;
     text-align: center;
   }
@@ -413,7 +423,7 @@ h1 {
     margin: 15px;
   }
   main section .cuadro .comunity:hover {
-    background-color: green;
+    background-color: rgb(242, 164, 28);
     transform: scale(1.1);
     transition: 0.3s;
   }
@@ -477,7 +487,7 @@ h1 {
     color: white;
   }
   .secindexdos .reco article .visitar:hover {
-    background-color: green;
+    background-color: rgb(243, 149, 9);
     transform: scale(1.1);
     transition: 0.3s;
   }
@@ -537,6 +547,7 @@ h1 {
     padding: 8px;
     border: solid white 1px;
     border-radius: 8px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
   }
   .secprod2 .productocontenedor .producto h3 {
     display: flex;
@@ -631,6 +642,7 @@ h1 {
     padding: 8px;
     border: solid white 1px;
     border-radius: 8px;
+    box-shadow: 5px 5px 10px rgb(25, 44, 127);
   }
   .secprod2 .productocontenedor .producto h3 {
     display: flex;
@@ -726,6 +738,7 @@ h1 {
     padding: 8px;
     border: solid white 1px;
     border-radius: 8px;
+    box-shadow: 5px 5px 10px rgb(1, 44, 124);
   }
   .secprod2 .productocontenedor .producto h3 {
     display: flex;
