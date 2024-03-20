@@ -127,6 +127,10 @@
                         color: white;
                         margin-bottom: 8px;
                         width: 30%;
+
+                        &:active{
+                            background-color: orange;
+                        }
                     }
                 }
             }           
