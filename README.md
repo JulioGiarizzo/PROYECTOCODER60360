@@ -19,7 +19,7 @@ Me encontré con varios tutoriales que hablaban de la importancia de la utilizac
 Debería practicar e investigar un poco mas al repecto. en algunas secciones, según la medida de la pantalla, las imágenes, al ver un article al lado del otro, quedan escaladas, debido a la adaptación del párrafo al tamaño de la pantalla. No sobresalen del artículo ni las imágenes ni el párrafo, tampoco se ocultan dentro del mismo, generando que se esconda parte del texto o los enlaces a modo de *"over-flow: hidden"*, pero de todas formas me dejó inconforme. Y no pude conseguir explicación ni soluciones puntuales en tutoriales referidos a la realización de tarjetas para sitios web.
 
 - **Sobre las imágenes al optimizarlas para SEO:**
-Si bien en la carpeta de las imágenes y en el html se puede observar que el peso de las imágegnes en su mayoria no supera los 140kb, al insepeccionar las imágenes desde el navegador, me aparecen con sus proporciones de peso y medidas originales, lo que no pude saber porqué pasa.
+Si bien en la carpeta de las imágenes y en el html se puede observar que el peso de las imágenes en su mayoria no supera los 140kb, al insepeccionar las imágenes desde el navegador me aparecen con sus proporciones de peso y medidas originales, lo que no pude saber porqué pasa.
 
 ### Críticas constructivas a CODERHOUSECríticas constructivas a CODERHOUSE
 
