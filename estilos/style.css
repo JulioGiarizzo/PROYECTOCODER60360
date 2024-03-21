@@ -238,7 +238,7 @@ h1 {
     text-align: center;
     font-size: 1.25rem;
     color: white;
-    padding: 2px;
+    padding: 0.125rem;
   }
   .cuadro .fotomain {
     width: 100%;
@@ -252,7 +252,7 @@ h1 {
     font-size: 1.25rem;
     border: solid white 1px;
     border-radius: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
   }
   .secindexdos {
     display: flex;
@@ -297,7 +297,7 @@ h1 {
     color: white;
     font-size: 1.25rem;
     text-align: center;
-    padding: 5px;
+    padding: 0.3125rem;
   }
   .secindexdos .reco article .visitar {
     background-color: rgb(0, 0, 0);
@@ -307,7 +307,7 @@ h1 {
     text-align: center;
     font-size: 1.25rem;
     color: white;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
     width: 30%;
   }
   .secindexdos .reco article .visitar:active {
@@ -336,7 +336,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6, 1fr);
-    padding: 5px;
+    padding: 0.3125rem;
   }
   .secindexdos .reco article {
     height: 100%;
@@ -355,7 +355,7 @@ h1 {
   .secindexdos .reco article img {
     width: 100%;
     min-height: 55%;
-    padding: 10px;
+    padding: 0.625rem;
   }
   .secindexdos .reco article .visitar {
     background-color: black;
@@ -365,8 +365,8 @@ h1 {
     text-align: center;
     font-size: 1.25rem;
     color: white;
-    padding: 5px;
-    margin-bottom: 4px;
+    padding: 0.3125rem;
+    margin-bottom: 0.25rem;
   }
 }
 /* --------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -402,7 +402,7 @@ h1 {
     text-align: center;
     font-size: 1.875rem;
     color: white;
-    padding: 10px;
+    padding: 0.625rem;
   }
   main section .cuadro .comunity {
     background-color: black;
@@ -411,8 +411,8 @@ h1 {
     font-size: 2.1875rem;
     border: solid white 1px;
     border-radius: 8px;
-    padding: 5px;
-    margin: 15px;
+    padding: 0.3125rem;
+    margin: 0.9375rem;
   }
   main section .cuadro .comunity:hover {
     background-color: rgb(242, 164, 28);
@@ -438,7 +438,7 @@ h1 {
     justify-items: center;
     align-items: center;
     width: 95%;
-    padding: 10px;
+    padding: 0.625rem;
   }
   .secindexdos .reco article {
     display: flex;
@@ -448,7 +448,7 @@ h1 {
     justify-content: space-between;
     width: 100%;
     height: 100%;
-    padding: 5px;
+    padding: 0.3125rem;
     box-shadow: 5px 5px 10px rgba(57, 26, 210, 0.682);
   }
   .secindexdos .reco article h3 {
@@ -456,7 +456,7 @@ h1 {
     background-color: yellow;
     width: 100%;
     text-align: center;
-    padding: 8px;
+    padding: 0.5rem;
   }
   .secindexdos .reco article img {
     min-height: 45%;
@@ -494,7 +494,7 @@ h1 {
     border: solid white 1px;
     border-radius: 8px;
     overflow: hidden;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
   }
   .secprod1 h2 {
     margin-top: 0;
@@ -507,7 +507,7 @@ h1 {
   .secprod1 p {
     color: white;
     text-align: center;
-    padding: 8px;
+    padding: 0.5rem;
   }
   .secprod2 {
     display: flex;
@@ -536,7 +536,7 @@ h1 {
     width: 95%;
     justify-content: space-between;
     gap: 1rem;
-    padding: 8px;
+    padding: 0.5rem;
     border: solid white 1px;
     border-radius: 8px;
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
@@ -564,13 +564,13 @@ h1 {
     color: white;
     font-size: 1.125rem;
     text-align: center;
-    padding: 7px;
+    padding: 0.4375rem;
   }
   .secprod2 .productocontenedor .producto a {
     background-color: black;
     color: white;
     font-size: 0.9375rem;
-    padding: 5px;
+    padding: 0.3125rem;
     border: solid white 1px;
     text-align: center;
     border-radius: 8px;
@@ -599,7 +599,7 @@ h1 {
   .secprod1 p {
     color: white;
     text-align: center;
-    padding: 8px;
+    padding: 0.5rem;
   }
   .secprod2 {
     display: flex;
@@ -631,7 +631,7 @@ h1 {
     height: 100%;
     justify-content: space-between;
     gap: 1rem;
-    padding: 8px;
+    padding: 0.5rem;
     border: solid white 1px;
     border-radius: 8px;
     box-shadow: 5px 5px 10px rgb(25, 44, 127);
@@ -659,13 +659,13 @@ h1 {
     color: white;
     font-size: 1.125rem;
     text-align: center;
-    padding: 7px;
+    padding: 0.4375rem;
   }
   .secprod2 .productocontenedor .producto a {
     background-color: black;
     color: white;
     font-size: 1.25rem;
-    padding: 8px;
+    padding: 0.5rem;
     border: solid white 1px;
     text-align: center;
     border-radius: 8px;
@@ -694,7 +694,7 @@ h1 {
   .secprod1 p {
     color: white;
     text-align: center;
-    padding: 8px;
+    padding: 0.5rem;
     font-size: 1.5625rem;
   }
   .secprod2 {
@@ -757,7 +757,7 @@ h1 {
     color: white;
     font-size: 2.1875rem;
     text-align: center;
-    padding: 7px;
+    padding: 0.4375rem;
   }
   .secprod2 .productocontenedor .producto a {
     background-color: black;
