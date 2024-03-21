@@ -29,4 +29,4 @@ Considerando que son una organización especializada en la enseñanza de nuevas 
 2. **El video de la clase final esta tardando bastante en subirse**
 Entiendo que puedan tener problemas técnicos y que nos dan 3 días más para la entrega final, de todas formas, gran parte de la "gracia" de este tipo de modalidades radica en la rápida disponibilidad del material, así como en la cantidad de medios que hay para hacernoslo llegar, desde mail, repositorios y seguramente algunos mas que desconozco.
 
-#### Finalmente, quisiera agradecer al equipo docente por la buena onda y la disponibilidad que intentan brindarnos a pesar de que se nota que estan sumamente atareados.Finalmente, quisiera agradecer al equipo docente por la buena onda y la disponibilidad que intentan brindarnos a pesar de que se nota que estan sumamente atareados.
+#### Finalmente, quisiera agradecer al equipo docente por la buena onda y la disponibilidad que intentan brindarnos a pesar de que se nota que están sumamente atareados.
