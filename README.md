@@ -1,6 +1,6 @@
 # Criterios en la realización del proyecto.
 
-- Utilización de etiquetas semánticas en el html.
+- Utilización de etiquetas semánticas y optimizadoras del SEO en el html.
 - Optimización del peso de las imágenes.
 - Contribución al dinamismo del proyecto mediante Bootstrap 5. Bajo la consigna de la personalización de los elementos en caso de elegir utilizar las facilidades que ofrece dicho frame work.
 
