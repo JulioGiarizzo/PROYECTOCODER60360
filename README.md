@@ -12,7 +12,7 @@ Sumamente entretenido, la esxplicaciones de las clases fueron acordes a lo que s
 
 ### Algunas dudas e inquitudes y dudas puntuales del temario surgidas desde la práctica y la investigación de conceptos por cuenta propia del temario.
 
-- **En lo referido a la configuración de git: **
+- **En lo referido a la configuración de git:**
 Me encontré con varios tutoriales que hablaban de la importancia de la utilización del comando comando *"git config core.autocrlf"* debido a la posibilidad de problemas a surgir en caso de que los integrantes de un equipo trabajen con sistemas operativos diferentes en sus respectivas computadoras. Debiendo otorgar a dicho comando los valores de *true* ,*input* o *false * según coorresponda.
 
 - **Con respecto a valores de medidas dentro de los articles para imágenes y párrafos:**
@@ -20,7 +20,7 @@ Debería practicar e investigar un poco mas al repecto. en algunas secciones, se
 
 #### Críticas constructivas a CODERHOUSECríticas constructivas a CODERHOUSE
 
-1. **La plataforma al menos a mi, me generó bastantes problemas, en especial en su versión móbil **
+1. **La plataforma al menos a mi, me generó bastantes problemas, en especial en su versión móbil**
 Considerando que son una organización especializada en la enseñanza de nuevas tecnologías, entre las que destacan principalmente las relacionadas con el desarrollo y la programación, es bastante irónico y algo desalentador que la plataforma de dicha firma funcione lenta, que en su versión móbil genere problemas para cargar las secciones o cerrar sesión y que a demás algunos de los videos y consignas que los alumnos "tienen como requisito para su mejor aprendizaje pre-visualizar antes de la clase" estén desactualizados.
 
 2. **El video de la clase final esta tardando bastante en subirse**
